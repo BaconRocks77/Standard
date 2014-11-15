@@ -1,0 +1,16 @@
+[
+{
+  "modid": "MoThings",
+  "name": "Mo Things and Randomness",
+  "description": "Tons of random items and mobs",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Yaoi","hii488","1jakef","Suspicious_Potato","bradsk88"],
+  "credits": "The MoThings Team",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
