@@ -28,12 +28,50 @@ public class OreGeneration implements IWorldGenerator{
 	private void generateEnd(World world, Random rand, int chunkX, int chunkZ) {}
 
 	private void generateSurface(World world, Random rand, int chunkX, int chunkZ){
-        for(int k = 0; k < 10; k++){
+        for(int a = 0; a < 10; a++){
         	int firstBlockXCoord = chunkX + rand.nextInt(16);
         	int firstBlockYCoord = rand.nextInt(50);
         	int firstBlockZCoord = chunkZ + rand.nextInt(16);
-        	
-        	(new WorldGenMinable(BlockRegistry.silverOre, 20)).generate(world, rand, firstBlockXCoord, firstBlockYCoord, firstBlockZCoord);
+        	(new WorldGenMinable(BlockRegistry.silverOre, 7)).generate(world, rand, firstBlockXCoord, firstBlockYCoord, firstBlockZCoord);
+        }
+        
+        for(int b = 0; b < 20; b++){
+        	int firstBlockXCoord = chunkX + rand.nextInt(16);
+        	int firstBlockYCoord = rand.nextInt(64);
+        	int firstBlockZCoord = chunkZ + rand.nextInt(16);
+        	(new WorldGenMinable(BlockRegistry.gonumiteOre, 6)).generate(world, rand, firstBlockXCoord, firstBlockYCoord, firstBlockZCoord);
+        }
+        
+        
+        
+        
+        for(int c = 0; c < 20; c++){
+        	int firstBlockXCoord = chunkX + rand.nextInt(16);
+        	int firstBlockYCoord = rand.nextInt(5);
+        	int firstBlockZCoord = chunkZ + rand.nextInt(16);
+        	(new WorldGenMinable(BlockRegistry.beiaRock, 4)).generate(world, rand, firstBlockXCoord, firstBlockYCoord, firstBlockZCoord);
+        }
+        
+        for(int d = 0; d < 10; d++){
+        	int firstBlockXCoord = chunkX + rand.nextInt(16);
+        	int firstBlockYCoord = rand.nextInt(5) + 59;
+        	int firstBlockZCoord = chunkZ + rand.nextInt(16);
+        	(new WorldGenMinable(BlockRegistry.hive, 1)).generate(world, rand, firstBlockXCoord, firstBlockYCoord, firstBlockZCoord);
+        }
+        
+        for(int e = 0; e < 2; e++){
+        	int firstBlockXCoord = chunkX + rand.nextInt(16);
+        	int firstBlockYCoord = rand.nextInt(10) + 200;
+        	int firstBlockZCoord = chunkZ + rand.nextInt(16);
+        	(new WorldGenMinable(BlockRegistry.cloudBlock, 0, 15, Blocks.air)).generate(world, rand, firstBlockXCoord, firstBlockYCoord, firstBlockZCoord);
+        }
+        
+        for(int f = 0; f <10; f++){
+        	int firstBlockXCoord = chunkX + rand.nextInt(16);
+        	int firstBlockYCoord = rand.nextInt(128);
+        	int firstBlockZCoord = chunkZ + rand.nextInt(16);
+        	(new WorldGenMinable(BlockRegistry.slimyBlock, 1)).generate(world, rand, firstBlockXCoord, firstBlockYCoord, firstBlockZCoord);
+
         }
 	}
 
