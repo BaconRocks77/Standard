@@ -20,7 +20,7 @@ import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class ItemRegistry{
+public class MRSItemRegistry{
 
     public static Item silverIngot;
     public static Item gonumiteIngot;
