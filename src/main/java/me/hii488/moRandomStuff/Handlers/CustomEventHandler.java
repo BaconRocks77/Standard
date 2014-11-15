@@ -24,16 +24,21 @@ public class CustomEventHandler {
 	    if (event.entity instanceof EntitySquid){
 	        double d = rand.nextDouble();
 	    	if(d < 0.5){
-	        	ItemStack itemStackToDrop = new ItemStack(ItemRegistry.squidMeat, 2);
+	        	ItemStack itemStackToDrop = new ItemStack(MRSItemRegistry.squidMeat, 2);
 	        	event.drops.add(new EntityItem(event.entity.worldObj, event.entity.posX, event.entity.posY, event.entity.posZ, itemStackToDrop));
 	        }
 	    }
 	    if (event.entity instanceof EntitySheep){
 	        double d = rand.nextDouble();
 	    	if(d < 0.4){
-	        	ItemStack itemStackToDrop = new ItemStack(ItemRegistry.rawMutton, 2);
+	        	ItemStack itemStackToDrop = new ItemStack(MRSItemRegistry.rawMutton, 2);
 	        	event.drops.add(new EntityItem(event.entity.worldObj, event.entity.posX, event.entity.posY, event.entity.posZ, itemStackToDrop));
 	        }
+	    }
+	    double d3 = rand.nextDouble();
+	    if(d3 <0.3){
+	    	ItemStack itemstack = new ItemStack(MRSItemRegistry.skull, 1);
+	    	event.drops.add(new EntityItem(event.entity.worldObj, event.entity.posX, event.entity.posY, event.entity.posZ, itemstack));
 	    }
 	} 
 	
@@ -48,11 +53,9 @@ public class CustomEventHandler {
 	
 	@SubscribeEvent(priority=EventPriority.NORMAL)
 	public void TntZombieExplode(LivingDeathEvent event){
-		System.out.println("EntityDied");
 		if(event.entity instanceof EntityTntZombie){
 			double d = rand.nextDouble();
 			if(d<0.1){
-				System.out.println("it exploded");
 				event.entityLiving.worldObj.createExplosion(null, event.entity.posX, event.entity.posY, event.entity.posZ, 3.0f, true);
 			}
 		}
