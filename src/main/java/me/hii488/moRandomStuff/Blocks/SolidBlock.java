@@ -1,7 +1,7 @@
 package me.hii488.moRandomStuff.Blocks;
 
 import me.hii488.moRandomStuff.Registries.TabRegistry;
-import me.hii488.ultimod.main.Ultimain;
+import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -17,9 +17,11 @@ public class SolidBlock extends Block{
 		this.setResistance(10f);
 		this.setHarvestLevel("pickaxe", 1);
 	}
-	
-	@SideOnly(Side.CLIENT)
+
+	@Override
+    @SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconRegister){
-		this.blockIcon = iconRegister.registerIcon(Ultimain.MODID + ":" + this.getUnlocalizedName().substring(5));
+		this.blockIcon = iconRegister.registerIcon(Main.MODID + ":" + this.getUnlocalizedName().substring(5));
 	}
+
 }

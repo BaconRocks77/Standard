@@ -1,1 +1,4 @@
 /eclipse
+/bin/
+/.gradle
+/saves
