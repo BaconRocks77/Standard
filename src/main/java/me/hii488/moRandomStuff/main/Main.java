@@ -29,11 +29,13 @@ public class Main {
 
 	@EventHandler
     public void preInit(FMLPreInitializationEvent event){
-		proxy.registerRenderThings();
-		BlockRegistry.BlockReg();
-		ItemRegistry.ItemReg();
-		RecipesRegistry.RecipesReg();
+	proxy.registerRenderThings();
+	
+	BlockRegistry.BlockReg();
+	MRSItemRegistry.ItemReg();
+	RecipesRegistry.RecipesReg();
     	CustomEntityRegistry.mainRegistry();
+    	
     	GameRegistry.registerWorldGenerator(new OreGeneration(), 1);
     }
 

@@ -19,6 +19,8 @@ public class CustomEntityRegistry {
 		createEntity(EntityTntZombie.class, "EntityTntZombie", 0xEE4445, 0xEE1EFF);
 		createEntity(EntityEnderZombie.class, "EntityEnderZombie", 0xEE4455, 0xEE1EFF);
 
+		createEntityNoEgg(EntityMetalBoat.class, "EntityMetalBoat");
+
 		EntityRegistry.addSpawn(EntityNetherZombie.class, 10, 2, 5, EnumCreatureType.monster, BiomeGenBase.hell);
 
 		for(int i = 0; i < BiomeGenBase.getBiomeGenArray().length; i++){
@@ -42,5 +44,12 @@ public class CustomEntityRegistry {
 
 	private static void createEgg(int randomId, int solidColour, int spotColour) {
 		EntityList.entityEggs.put(Integer.valueOf(randomId), new EntityList.EntityEggInfo(randomId, solidColour, spotColour));
+	}
+	
+	public static void createEntityNoEgg(Class entityClass, String entityName){
+		int randomId = EntityRegistry.findGlobalUniqueEntityId();
+		
+		EntityRegistry.registerGlobalEntityID(entityClass, entityName, randomId);
+		EntityRegistry.registerModEntity(entityClass, entityName, randomId, Main.modinstance, 64, 1, true);
 	}
 }

@@ -8,14 +8,14 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class SilverOre extends Block{
+public class SimpleOre extends Block{
 
-	public SilverOre(Material mat) {
+	public SimpleOre(Material mat, int harvestLevel) {
 		super(mat);
 		this.setCreativeTab(TabRegistry.MRBtab);
 		this.setHardness(4.5f);
 		this.setResistance(12f);
-		this.setHarvestLevel("pickaxe", 2);
+		this.setHarvestLevel("pickaxe", harvestLevel);
 	}
 
 	@Override
