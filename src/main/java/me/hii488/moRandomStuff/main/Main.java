@@ -4,7 +4,7 @@ import me.hii488.moRandomStuff.Handlers.CustomEventHandler;
 import me.hii488.moRandomStuff.Handlers.OreGeneration;
 import me.hii488.moRandomStuff.Registries.BlockRegistry;
 import me.hii488.moRandomStuff.Registries.CustomEntityRegistry;
-import me.hii488.moRandomStuff.Registries.ItemRegistry;
+import me.hii488.moRandomStuff.Registries.MRSItemRegistry;
 import me.hii488.moRandomStuff.Registries.RecipesRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import cpw.mods.fml.common.Mod;
@@ -30,12 +30,12 @@ public class Main {
 	@EventHandler
     public void preInit(FMLPreInitializationEvent event){
 	proxy.registerRenderThings();
-	
+
 	BlockRegistry.BlockReg();
 	MRSItemRegistry.ItemReg();
 	RecipesRegistry.RecipesReg();
     	CustomEntityRegistry.mainRegistry();
-    	
+
     	GameRegistry.registerWorldGenerator(new OreGeneration(), 1);
     }
 
