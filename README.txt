@@ -25,5 +25,6 @@ Use git to checkout the source to some/directory/Standard
 run gradlew (or gradle on linux) with the following command:  
 *gradlew build*  
 This will create a .jar file inside some/directory/Standard/build  
+If you cannot see this look inside the /libs folder
 Copy this .jar file to your .minecraft/mods folder  
 Enjoy
