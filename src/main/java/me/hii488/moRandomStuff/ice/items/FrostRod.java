@@ -7,7 +7,7 @@ public class FrostRod extends IceItem {
 
     static FrostRod instance;
 
-    private static final String DICT = "rodFrost";
+    static final String DICT = "rodFrost";
 
     public FrostRod() {
         setUnlocalizedName(DICT);

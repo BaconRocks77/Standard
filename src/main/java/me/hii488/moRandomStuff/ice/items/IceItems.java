@@ -10,10 +10,15 @@ public class IceItems {
     public static void init() {
         FrostRod.init();
         FrostCrown.init();
+        FrostRodFragment.init();
     }
 
     public static Item getFrostCrown() {
         return FrostCrown.instance;
+    }
+
+    public static Item getFrostRodFragment() {
+        return FrostRodFragment.instance;
     }
 
 }

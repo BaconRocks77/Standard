@@ -52,7 +52,7 @@ public class TabRegistry {
         @Override
         @SideOnly(Side.CLIENT)
         public Item getTabIconItem() {
-            return IceItems.getFrostCrown();
+            return IceItems.getFrostRodFragment();
         }
     };
 }
