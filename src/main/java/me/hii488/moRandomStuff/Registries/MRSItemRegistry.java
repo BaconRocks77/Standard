@@ -5,7 +5,6 @@ import me.hii488.moRandomStuff.Food.IronApple;
 import me.hii488.moRandomStuff.Food.JustFood;
 import me.hii488.moRandomStuff.Items.Axe;
 import me.hii488.moRandomStuff.Items.Hoe;
-import me.hii488.moRandomStuff.Items.MetalBoat;
 import me.hii488.moRandomStuff.Items.PickAxe;
 import me.hii488.moRandomStuff.Items.SimpleItem;
 import me.hii488.moRandomStuff.Items.Spade;
@@ -13,6 +12,8 @@ import me.hii488.moRandomStuff.Items.Sword;
 import me.hii488.moRandomStuff.Items.WitheredBoneMeal;
 import me.hii488.moRandomStuff.Items.CustomWeaponTypes.BootySlapper;
 import me.hii488.moRandomStuff.Items.CustomWeaponTypes.KitchenKnife;
+import me.hii488.moRandomStuff.Items.transport.MetalBoat;
+import me.hii488.moRandomStuff.ice.items.IceItems;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemFood;
@@ -117,7 +118,7 @@ public class MRSItemRegistry{
     //Misc other stuff
     public static ItemSword kitchenKnife;
 
-    public static void ItemReg(){
+    public static void registerItems(){
     	//Ingots
     	silverIngot = new SimpleItem().setUnlocalizedName("silverIngot");
     	gonumiteIngot = new SimpleItem().setUnlocalizedName("gonumiteIngot");
@@ -286,6 +287,8 @@ public class MRSItemRegistry{
 
     	GameRegistry.registerItem(bootySlapper, "BootySlapper");
     	GameRegistry.registerItem(kitchenKnife, "KitchenKnife");
+
+    	IceItems.init();
     }
 
 }

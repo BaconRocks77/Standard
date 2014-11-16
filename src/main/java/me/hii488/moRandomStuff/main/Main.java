@@ -32,7 +32,7 @@ public class Main {
 	proxy.registerRenderThings();
 
 	BlockRegistry.BlockReg();
-	MRSItemRegistry.ItemReg();
+	MRSItemRegistry.registerItems();
 	RecipesRegistry.RecipesReg();
     	CustomEntityRegistry.mainRegistry();
 
