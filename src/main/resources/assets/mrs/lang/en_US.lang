@@ -7,7 +7,17 @@ itemGroup.MoRandomItemsTab=MR Items
 itemGroup.MoRandomIceTab=MR: Ice
 
 tile.silverOre.name=Silver Ore
-tile.silverBlock.name=SilverBlock
+tile.silverBlock.name=Silver Block
+tile.gonumiteOre.name=Gonumite Ore
+tile.gonumiteBlock.name=Gonumite Block
+tile.dragoniteOre.name=Dragonite Ore
+tile.dragoniteBlock.name=Dragonite Blockv
+tile.enuriumOre.name=Enurium Ore
+tile.enuriumBlock.name=Enurium Block
+tile.zayuamiteOre.name=Zayuamite Ore
+tile.zayuamiteBlock.name=Zayuamite Block
+tile.binoiumOre.name=Binoium Ore
+tile.binoiumBlock.name=Binoium Block
 
 item.rodFrost.name=Frost Rod
 item.crownFrost.name=Crown of the Frost
