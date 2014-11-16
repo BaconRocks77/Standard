@@ -1,6 +1,7 @@
 package me.hii488.moRandomStuff.Registries;
 
 import me.hii488.moRandomStuff.Entities.EntityEnderZombie;
+import me.hii488.moRandomStuff.Entities.EntityMetalBoat;
 import me.hii488.moRandomStuff.Entities.EntityNetherZombie;
 import me.hii488.moRandomStuff.Entities.EntityTntZombie;
 import me.hii488.moRandomStuff.main.Main;
@@ -45,10 +46,10 @@ public class CustomEntityRegistry {
 	private static void createEgg(int randomId, int solidColour, int spotColour) {
 		EntityList.entityEggs.put(Integer.valueOf(randomId), new EntityList.EntityEggInfo(randomId, solidColour, spotColour));
 	}
-	
+
 	public static void createEntityNoEgg(Class entityClass, String entityName){
 		int randomId = EntityRegistry.findGlobalUniqueEntityId();
-		
+
 		EntityRegistry.registerGlobalEntityID(entityClass, entityName, randomId);
 		EntityRegistry.registerModEntity(entityClass, entityName, randomId, Main.modinstance, 64, 1, true);
 	}

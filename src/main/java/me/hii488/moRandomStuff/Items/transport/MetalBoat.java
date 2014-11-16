@@ -1,4 +1,4 @@
-package me.hii488.moRandomStuff.Items;
+package me.hii488.moRandomStuff.Items.transport;
 
 import java.util.List;
 
