@@ -28,9 +28,9 @@ public class MRSItemRegistry{
     public static Item silverIngot;
     public static Item gonumiteIngot;
     public static Item dragoniteIngot;
-	public static Item enuriumIngot;
-	public static Item zayuamiteIngot;
-	public static Item binoiumIngot;
+    public static Item enuriumIngot;
+    public static Item zayuamiteIngot;
+    public static Item binoiumIngot;
 
     //Silver items
     public static ItemSword silverSword;
@@ -125,7 +125,7 @@ public class MRSItemRegistry{
     	dragoniteIngot = new SimpleItem().setUnlocalizedName("dragoniteIngot");
     	enuriumIngot = new SimpleItem().setUnlocalizedName("enuriumIngot");
     	zayuamiteIngot = new SimpleItem().setUnlocalizedName("zayuamiteIngot");
-    	binoiumIngot = new SimpleItem().setUnlocalizedName("gonumiteIngot");
+    	binoiumIngot = new SimpleItem().setUnlocalizedName("binoiumIngot");
 
     	//Gears
     	woodGear = new SimpleItem().setUnlocalizedName("woodGear");
