@@ -6,6 +6,8 @@ itemGroup.MoRandomFoodTab=MR Food
 itemGroup.MoRandomItemsTab=MR Items
 itemGroup.MoRandomIceTab=MR: Ice
 
+
+
 tile.silverOre.name=Silver Ore
 tile.silverBlock.name=Silver Block
 tile.gonumiteOre.name=Gonumite Ore
@@ -18,6 +20,67 @@ tile.zayuamiteOre.name=Zayuamite Ore
 tile.zayuamiteBlock.name=Zayuamite Block
 tile.binoiumOre.name=Binoium Ore
 tile.binoiumBlock.name=Binoium Block
+
+tile.beiaRock.name=Beia Rock
+tile.slimyBlock.name=Slimy Block
+tile.cloudBlock.name=Cloud Block
+
+
+
+item.silverIngot.name=Silver Ingot
+item.gonumiteIngot.name=Gonumite Ingot
+item.dragoniteIngot.name=Dragonite Ingot
+item.enuriumIngot.name=Enurium Ingot
+item.zayuamiteIngot.name=Zayuamite Ingot
+item.binoiumIngot.name=Binoium Ingot
+
+item.silverSword.name=Silver Sword
+item.silverAxe.name=Silver Axe
+item.silverPick.name=Silver Pick
+item.silverHoe.name=Silver Hoe
+item.silverSpade.name=Silver Spade
+
+item.gonumiteSword.name=Gonumite Sword
+item.gonumiteAxe.name=Gonumite Axe
+item.gonumitePick.name=Gonumite Pick
+item.gonumiteHoe.name=Gonumite Hoe
+item.gonumiteSpade.name=Gonumite Spade
+
+item.dragoniteSword.name=Dragonite Sword
+item.dragoniteAxe.name=Dragonite Axe
+item.dragonitePick.name=Dragonite Pick
+item.dragoniteHoe.name=Dragonite Hoe
+item.dragoniteSpade.name=Dragonite Spade
+
+item.enuriumSword.name=Enurium Sword
+item.enuriumAxe.name=Enurium Axe
+item.enuriumPick.name=Enurium Pick
+item.enuriumHoe.name=Enurium Hoe
+item.enuriumSpade.name=Enurium Spade
+
+item.binoiumSword.name=Binoium Sword
+item.binoiumAxe.name=Binoium Axe
+item.binoiumPick.name=Binoium Pick
+item.binoiumHoe.name=Binoium Hoe
+item.binoiumSpade.name=Binoium Spade
+
+item.woodGear.name=Wooden Gear
+item.stoneGear.name=Stone Gear
+item.ironGear.name=Iron Gear
+
+item.bootySlapper.name=Booty Slapper
+item.kitchenKnife.name=Kitchen Knife
+
+item.squidMeat.name=Squid Meat
+item.cookedSquidMeat.name=Cooked Squid Meat
+item.rawMutton.name=Raw Mutton
+item.cookedMutton.name=Cooked Mutton
+item.cookedFlesh.name=Cooked Flesh
+item.sausage.name=Sausage
+item.breadSlice.name=Bread Slice
+item.hotDog.name=Hot Dog
+item.friedEgg.name=Fried Egg
+item.chips.name=Chips
 
 item.rodFrost.name=Frost Rod
 item.crownFrost.name=Crown of the Frost
