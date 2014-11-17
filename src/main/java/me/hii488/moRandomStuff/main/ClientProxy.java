@@ -20,4 +20,5 @@ public class ClientProxy extends ServerProxy{
 
 		RenderingRegistry.registerEntityRenderingHandler(EntityMetalBoat.class, new RenderEntityMetalBoat());
 	}
+
 }

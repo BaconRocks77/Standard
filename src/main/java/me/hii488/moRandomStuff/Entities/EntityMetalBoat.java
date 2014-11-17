@@ -47,10 +47,10 @@ public class EntityMetalBoat extends Entity
         this.setSize(1.5F, 0.6F);
         this.yOffset = this.height / 2.0F;
     }
-    
+
     protected void dropFewItems(boolean par1, int par2){
 		int random = this.rand.nextInt(15) + this.rand.nextInt(1 + par2);
-		
+
 		this.dropItem(MRSItemRegistry.metalBoat, 1);
 	}
 
@@ -58,11 +58,13 @@ public class EntityMetalBoat extends Entity
      * returns if this entity triggers Block.onEntityWalking on the blocks they walk on. used for spiders and wolves to
      * prevent them from trampling crops
      */
+    @Override
     protected boolean canTriggerWalking()
     {
         return false;
     }
 
+    @Override
     protected void entityInit()
     {
         this.dataWatcher.addObject(17, new Integer(0));
@@ -74,6 +76,7 @@ public class EntityMetalBoat extends Entity
      * Returns a boundingBox used to collide the entity with other entities and blocks. This enables the entity to be
      * pushable on contact, like boats or minecarts.
      */
+    @Override
     public AxisAlignedBB getCollisionBox(Entity p_70114_1_)
     {
         return p_70114_1_.boundingBox;
@@ -82,6 +85,7 @@ public class EntityMetalBoat extends Entity
     /**
      * returns the bounding box for this entity
      */
+    @Override
     public AxisAlignedBB getBoundingBox()
     {
         return this.boundingBox;
@@ -90,6 +94,7 @@ public class EntityMetalBoat extends Entity
     /**
      * Returns true if this entity should push and be pushed by other entities when colliding.
      */
+    @Override
     public boolean canBePushed()
     {
         return true;
@@ -98,7 +103,7 @@ public class EntityMetalBoat extends Entity
     public EntityMetalBoat(World p_i1705_1_, double p_i1705_2_, double p_i1705_4_, double p_i1705_6_)
     {
         this(p_i1705_1_);
-        this.setPosition(p_i1705_2_, p_i1705_4_ + (double)this.yOffset, p_i1705_6_);
+        this.setPosition(p_i1705_2_, p_i1705_4_ + this.yOffset, p_i1705_6_);
         this.motionX = 0.0D;
         this.motionY = 0.0D;
         this.motionZ = 0.0D;
@@ -110,14 +115,16 @@ public class EntityMetalBoat extends Entity
     /**
      * Returns the Y offset from the entity's position for any entity riding this one.
      */
+    @Override
     public double getMountedYOffset()
     {
-        return (double)this.height * 0.0D - 0.30000001192092896D;
+        return this.height * 0.0D - 0.30000001192092896D;
     }
 
     /**
      * Called when the entity is attacked.
      */
+    @Override
     public boolean attackEntityFrom(DamageSource p_70097_1_, float p_70097_2_)
     {
         if (this.isEntityInvulnerable())
@@ -158,6 +165,7 @@ public class EntityMetalBoat extends Entity
     /**
      * Setups the entity to do the hurt animation. Only used by packets in multiplayer.
      */
+    @Override
     @SideOnly(Side.CLIENT)
     public void performHurtAnimation()
     {
@@ -169,6 +177,7 @@ public class EntityMetalBoat extends Entity
     /**
      * Returns true if other Entities should be prevented from moving through this Entity.
      */
+    @Override
     public boolean canBeCollidedWith()
     {
         return !this.isDead;
@@ -178,6 +187,7 @@ public class EntityMetalBoat extends Entity
      * Sets the position and rotation. Only difference from the other one is no bounding on the rotation. Args: posX,
      * posY, posZ, yaw, pitch
      */
+    @Override
     @SideOnly(Side.CLIENT)
     public void setPositionAndRotation2(double p_70056_1_, double p_70056_3_, double p_70056_5_, float p_70056_7_, float p_70056_8_, int p_70056_9_)
     {
@@ -203,8 +213,8 @@ public class EntityMetalBoat extends Entity
         this.boatX = p_70056_1_;
         this.boatY = p_70056_3_;
         this.boatZ = p_70056_5_;
-        this.boatYaw = (double)p_70056_7_;
-        this.boatPitch = (double)p_70056_8_;
+        this.boatYaw = p_70056_7_;
+        this.boatPitch = p_70056_8_;
         this.motionX = this.velocityX;
         this.motionY = this.velocityY;
         this.motionZ = this.velocityZ;
@@ -213,6 +223,7 @@ public class EntityMetalBoat extends Entity
     /**
      * Sets the velocity to the args. Args: x, y, z
      */
+    @Override
     @SideOnly(Side.CLIENT)
     public void setVelocity(double p_70016_1_, double p_70016_3_, double p_70016_5_)
     {
@@ -224,6 +235,7 @@ public class EntityMetalBoat extends Entity
     /**
      * Called to update the entity's position/logic.
      */
+    @Override
     public void onUpdate()
     {
         super.onUpdate();
@@ -246,13 +258,13 @@ public class EntityMetalBoat extends Entity
 
         for (int i = 0; i < b0; ++i)
         {
-            double d1 = this.boundingBox.minY + (this.boundingBox.maxY - this.boundingBox.minY) * (double)(i + 0) / (double)b0 - 0.125D;
-            double d3 = this.boundingBox.minY + (this.boundingBox.maxY - this.boundingBox.minY) * (double)(i + 1) / (double)b0 - 0.125D;
+            double d1 = this.boundingBox.minY + (this.boundingBox.maxY - this.boundingBox.minY) * (i + 0) / b0 - 0.125D;
+            double d3 = this.boundingBox.minY + (this.boundingBox.maxY - this.boundingBox.minY) * (i + 1) / b0 - 0.125D;
             AxisAlignedBB axisalignedbb = AxisAlignedBB.getBoundingBox(this.boundingBox.minX, d1, this.boundingBox.minZ, this.boundingBox.maxX, d3, this.boundingBox.maxZ);
 
             if (this.worldObj.isAABBInMaterial(axisalignedbb, Material.water))
             {
-                d0 += 1.0D / (double)b0;
+                d0 += 1.0D / b0;
             }
         }
 
@@ -263,13 +275,13 @@ public class EntityMetalBoat extends Entity
 
         if (d10 > 0.26249999999999996D)
         {
-            d2 = Math.cos((double)this.rotationYaw * Math.PI / 180.0D);
-            d4 = Math.sin((double)this.rotationYaw * Math.PI / 180.0D);
+            d2 = Math.cos(this.rotationYaw * Math.PI / 180.0D);
+            d4 = Math.sin(this.rotationYaw * Math.PI / 180.0D);
 
-            for (j = 0; (double)j < 1.0D + d10 * 60.0D; ++j)
+            for (j = 0; j < 1.0D + d10 * 60.0D; ++j)
             {
-                double d5 = (double)(this.rand.nextFloat() * 2.0F - 1.0F);
-                double d6 = (double)(this.rand.nextInt(2) * 2 - 1) * 0.7D;
+                double d5 = this.rand.nextFloat() * 2.0F - 1.0F;
+                double d6 = (this.rand.nextInt(2) * 2 - 1) * 0.7D;
                 double d8;
                 double d9;
 
@@ -295,12 +307,12 @@ public class EntityMetalBoat extends Entity
         {
             if (this.boatPosRotationIncrements > 0)
             {
-                d2 = this.posX + (this.boatX - this.posX) / (double)this.boatPosRotationIncrements;
-                d4 = this.posY + (this.boatY - this.posY) / (double)this.boatPosRotationIncrements;
-                d11 = this.posZ + (this.boatZ - this.posZ) / (double)this.boatPosRotationIncrements;
-                d12 = MathHelper.wrapAngleTo180_double(this.boatYaw - (double)this.rotationYaw);
-                this.rotationYaw = (float)((double)this.rotationYaw + d12 / (double)this.boatPosRotationIncrements);
-                this.rotationPitch = (float)((double)this.rotationPitch + (this.boatPitch - (double)this.rotationPitch) / (double)this.boatPosRotationIncrements);
+                d2 = this.posX + (this.boatX - this.posX) / this.boatPosRotationIncrements;
+                d4 = this.posY + (this.boatY - this.posY) / this.boatPosRotationIncrements;
+                d11 = this.posZ + (this.boatZ - this.posZ) / this.boatPosRotationIncrements;
+                d12 = MathHelper.wrapAngleTo180_double(this.boatYaw - this.rotationYaw);
+                this.rotationYaw = (float)(this.rotationYaw + d12 / this.boatPosRotationIncrements);
+                this.rotationPitch = (float)(this.rotationPitch + (this.boatPitch - this.rotationPitch) / this.boatPosRotationIncrements);
                 --this.boatPosRotationIncrements;
                 this.setPosition(d2, d4, d11);
                 this.setRotation(this.rotationYaw, this.rotationPitch);
@@ -345,8 +357,8 @@ public class EntityMetalBoat extends Entity
             {
                 EntityLivingBase entitylivingbase = (EntityLivingBase)this.riddenByEntity;
                 float f = this.riddenByEntity.rotationYaw + -entitylivingbase.moveStrafing * 90.0F;
-                this.motionX += -Math.sin((double)(f * (float)Math.PI / 180.0F)) * this.speedMultiplier * (double)entitylivingbase.moveForward * 0.05000000074505806D;
-                this.motionZ += Math.cos((double)(f * (float)Math.PI / 180.0F)) * this.speedMultiplier * (double)entitylivingbase.moveForward * 0.05000000074505806D;
+                this.motionX += -Math.sin(f * (float)Math.PI / 180.0F) * this.speedMultiplier * entitylivingbase.moveForward * 0.05000000074505806D;
+                this.motionZ += Math.cos(f * (float)Math.PI / 180.0F) * this.speedMultiplier * entitylivingbase.moveForward * 0.05000000074505806D;
             }
 
             d2 = Math.sqrt(this.motionX * this.motionX + this.motionZ * this.motionZ);
@@ -382,8 +394,8 @@ public class EntityMetalBoat extends Entity
 
             for (l = 0; l < 4; ++l)
             {
-                int i1 = MathHelper.floor_double(this.posX + ((double)(l % 2) - 0.5D) * 0.8D);
-                j = MathHelper.floor_double(this.posZ + ((double)(l / 2) - 0.5D) * 0.8D);
+                int i1 = MathHelper.floor_double(this.posX + (l % 2 - 0.5D) * 0.8D);
+                j = MathHelper.floor_double(this.posZ + (l / 2 - 0.5D) * 0.8D);
 
                 for (int j1 = 0; j1 < 2; ++j1)
                 {
@@ -437,16 +449,16 @@ public class EntityMetalBoat extends Entity
             }
 
             this.rotationPitch = 0.0F;
-            d4 = (double)this.rotationYaw;
+            d4 = this.rotationYaw;
             d11 = this.prevPosX - this.posX;
             d12 = this.prevPosZ - this.posZ;
 
             if (d11 * d11 + d12 * d12 > 0.001D)
             {
-                d4 = (double)((float)(Math.atan2(d12, d11) * 180.0D / Math.PI));
+                d4 = ((float)(Math.atan2(d12, d11) * 180.0D / Math.PI));
             }
 
-            double d7 = MathHelper.wrapAngleTo180_double(d4 - (double)this.rotationYaw);
+            double d7 = MathHelper.wrapAngleTo180_double(d4 - this.rotationYaw);
 
             if (d7 > 20.0D)
             {
@@ -458,12 +470,12 @@ public class EntityMetalBoat extends Entity
                 d7 = -20.0D;
             }
 
-            this.rotationYaw = (float)((double)this.rotationYaw + d7);
+            this.rotationYaw = (float)(this.rotationYaw + d7);
             this.setRotation(this.rotationYaw, this.rotationPitch);
 
             if (!this.worldObj.isRemote)
             {
-                List list = this.worldObj.getEntitiesWithinAABBExcludingEntity(this, this.boundingBox.expand(0.20000000298023224D, 0.0D, 0.20000000298023224D));
+                List<?> list = this.worldObj.getEntitiesWithinAABBExcludingEntity(this, this.boundingBox.expand(0.20000000298023224D, 0.0D, 0.20000000298023224D));
 
                 if (list != null && !list.isEmpty())
                 {
@@ -486,12 +498,13 @@ public class EntityMetalBoat extends Entity
         }
     }
 
+    @Override
     public void updateRiderPosition()
     {
         if (this.riddenByEntity != null)
         {
-            double d0 = Math.cos((double)this.rotationYaw * Math.PI / 180.0D) * 0.4D;
-            double d1 = Math.sin((double)this.rotationYaw * Math.PI / 180.0D) * 0.4D;
+            double d0 = Math.cos(this.rotationYaw * Math.PI / 180.0D) * 0.4D;
+            double d1 = Math.sin(this.rotationYaw * Math.PI / 180.0D) * 0.4D;
             this.riddenByEntity.setPosition(this.posX + d0, this.posY + this.getMountedYOffset() + this.riddenByEntity.getYOffset(), this.posZ + d1);
         }
     }
@@ -499,13 +512,16 @@ public class EntityMetalBoat extends Entity
     /**
      * (abstract) Protected helper method to write subclass entity data to NBT.
      */
+    @Override
     protected void writeEntityToNBT(NBTTagCompound p_70014_1_) {}
 
     /**
      * (abstract) Protected helper method to read subclass entity data from NBT.
      */
+    @Override
     protected void readEntityFromNBT(NBTTagCompound p_70037_1_) {}
 
+    @Override
     @SideOnly(Side.CLIENT)
     public float getShadowSize()
     {
@@ -515,6 +531,7 @@ public class EntityMetalBoat extends Entity
     /**
      * First layer of player interaction
      */
+    @Override
     public boolean interactFirst(EntityPlayer p_130002_1_)
     {
         if (this.riddenByEntity != null && this.riddenByEntity instanceof EntityPlayer && this.riddenByEntity != p_130002_1_)
@@ -536,6 +553,7 @@ public class EntityMetalBoat extends Entity
      * Takes in the distance the entity has fallen this tick and whether its on the ground to update the fall distance
      * and deal fall damage if landing on the ground.  Args: distanceFallenThisTick, onGround
      */
+    @Override
     protected void updateFallState(double p_70064_1_, boolean p_70064_3_)
     {
         int i = MathHelper.floor_double(this.posX);
@@ -569,7 +587,7 @@ public class EntityMetalBoat extends Entity
         }
         else if (this.worldObj.getBlock(i, j - 1, k).getMaterial() != Material.water && p_70064_1_ < 0.0D)
         {
-            this.fallDistance = (float)((double)this.fallDistance - p_70064_1_);
+            this.fallDistance = (float)(this.fallDistance - p_70064_1_);
         }
     }
 

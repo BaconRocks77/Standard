@@ -1,52 +1,52 @@
-[13:43:43] [main/INFO]: Extra: []
-[13:43:43] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Brad/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker]
-[13:43:43] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[13:43:43] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[13:43:43] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
-[13:43:43] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[13:43:43] [main/INFO]: Forge Mod Loader version 7.10.85.1230 for Minecraft 1.7.10 loading
-[13:43:43] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_25, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.8.0_25\jre
-[13:43:43] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[13:43:43] [main/INFO]: Calling tweak class net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
-[13:43:43] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[13:43:43] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[13:43:43] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:43:43] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[13:43:43] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:43:43] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:43:43] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:43:43] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[13:43:44] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[13:43:44] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:43:44] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[13:43:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[13:43:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[13:43:45] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[13:43:46] [main/INFO]: Setting user: Player937
-[13:43:47] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:43:48] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[13:43:48] [Client thread/INFO]: MinecraftForge v10.13.2.1230 Initialized
-[13:43:48] [Client thread/INFO]: Replaced 182 ore recipies
-[13:43:48] [Client thread/INFO]: Completed early MinecraftForge initialization
-[13:43:48] [Client thread/INFO]: Searching C:\Users\Brad\Desktop\dev\Standard\mods for mods
-[13:43:48] [Client thread/INFO]: Mod mrs is missing the required element 'name'. Substituting mrs
-[13:43:50] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[13:43:50] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, mrs] at CLIENT
-[13:43:50] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, mrs] at SERVER
-[13:43:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:mrs
-[13:43:50] [Client thread/INFO]: Processing ObjectHolder annotations
-[13:43:50] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[13:43:50] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[13:43:50] [Client thread/INFO]: Applying holder lookups
-[13:43:51] [Client thread/INFO]: Holder lookups applied
-[13:43:51] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:43:51] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[13:43:51] [Thread-6/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[13:43:51] [Thread-6/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:43:51] [Thread-6/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[13:43:51] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:43:51] [Sound Library Loader/INFO]: Sound engine started
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/gonumiteBlock.png
+[21:29:57] [main/INFO]: Extra: []
+[21:29:57] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Brad/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker]
+[21:29:57] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:29:57] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:29:57] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
+[21:29:57] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:29:57] [main/INFO]: Forge Mod Loader version 7.10.85.1230 for Minecraft 1.7.10 loading
+[21:29:57] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_25, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.8.0_25\jre
+[21:29:57] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[21:29:57] [main/INFO]: Calling tweak class net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
+[21:29:57] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[21:29:57] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[21:29:57] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:29:57] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:29:57] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:29:57] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:29:57] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:29:58] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[21:29:59] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[21:29:59] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:29:59] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:29:59] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:29:59] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:29:59] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:30:01] [main/INFO]: Setting user: Player546
+[21:30:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:30:02] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[21:30:02] [Client thread/INFO]: MinecraftForge v10.13.2.1230 Initialized
+[21:30:02] [Client thread/INFO]: Replaced 182 ore recipies
+[21:30:03] [Client thread/INFO]: Completed early MinecraftForge initialization
+[21:30:03] [Client thread/INFO]: Searching C:\Users\Brad\Desktop\dev\Standard\mods for mods
+[21:30:03] [Client thread/INFO]: Mod mrs is missing the required element 'name'. Substituting mrs
+[21:30:05] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[21:30:06] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, mrs] at CLIENT
+[21:30:06] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, mrs] at SERVER
+[21:30:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:mrs
+[21:30:06] [Client thread/INFO]: Processing ObjectHolder annotations
+[21:30:06] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[21:30:06] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[21:30:06] [Client thread/INFO]: Applying holder lookups
+[21:30:06] [Client thread/INFO]: Holder lookups applied
+[21:30:06] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:30:06] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:30:07] [Thread-6/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:30:07] [Thread-6/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:30:07] [Thread-6/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:30:07] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:30:07] [Sound Library Loader/INFO]: Sound engine started
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/gonumiteBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/gonumiteBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -66,7 +66,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/gonumiteBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/binoiumOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/binoiumOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/binoiumOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -86,7 +86,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/binoiumOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/dragoniteBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/dragoniteBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/dragoniteBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -106,7 +106,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/dragoniteBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/cloudBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/cloudBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/cloudBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -126,7 +126,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/cloudBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/hive.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/hive.png
 java.io.FileNotFoundException: mrs:textures/blocks/hive.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -146,7 +146,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/hive.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/zayuamiteBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/zayuamiteBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/zayuamiteBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -166,7 +166,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/zayuamiteBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/enuriumBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/enuriumBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/enuriumBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -186,7 +186,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/enuriumBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/dragoniteOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/dragoniteOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/dragoniteOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -206,7 +206,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/dragoniteOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/slimyBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/slimyBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/slimyBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -226,7 +226,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/slimyBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/enuriumOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/enuriumOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/enuriumOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -246,7 +246,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/enuriumOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/beiaRock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/beiaRock.png
 java.io.FileNotFoundException: mrs:textures/blocks/beiaRock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -266,7 +266,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/beiaRock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/zayuamiteOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/zayuamiteOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/zayuamiteOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -286,7 +286,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/zayuamiteOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/binoiumBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/binoiumBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/binoiumBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -306,7 +306,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/binoiumBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/gonumiteOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/gonumiteOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/gonumiteOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -326,8 +326,8 @@ java.io.FileNotFoundException: mrs:textures/blocks/gonumiteOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/skull.png
+[21:30:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/skull.png
 java.io.FileNotFoundException: mrs:textures/items/skull.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -347,7 +347,7 @@ java.io.FileNotFoundException: mrs:textures/items/skull.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteSpade.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteSpade.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteSpade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -367,7 +367,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteSpade.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteAxe.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteAxe.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -387,7 +387,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteAxe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumSpade.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumSpade.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumSpade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -407,7 +407,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumSpade.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteIngot.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteIngot.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -427,7 +427,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteIngot.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/plainDoughnut.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/plainDoughnut.png
 java.io.FileNotFoundException: mrs:textures/items/plainDoughnut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -447,7 +447,7 @@ java.io.FileNotFoundException: mrs:textures/items/plainDoughnut.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/strawberry.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/strawberry.png
 java.io.FileNotFoundException: mrs:textures/items/strawberry.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -467,7 +467,7 @@ java.io.FileNotFoundException: mrs:textures/items/strawberry.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/friedEgg.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/friedEgg.png
 java.io.FileNotFoundException: mrs:textures/items/friedEgg.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -487,7 +487,7 @@ java.io.FileNotFoundException: mrs:textures/items/friedEgg.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/unsetCandy.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/unsetCandy.png
 java.io.FileNotFoundException: mrs:textures/items/unsetCandy.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -507,7 +507,7 @@ java.io.FileNotFoundException: mrs:textures/items/unsetCandy.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/butter.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/butter.png
 java.io.FileNotFoundException: mrs:textures/items/butter.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -527,7 +527,7 @@ java.io.FileNotFoundException: mrs:textures/items/butter.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/breadSlice.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/breadSlice.png
 java.io.FileNotFoundException: mrs:textures/items/breadSlice.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -547,7 +547,7 @@ java.io.FileNotFoundException: mrs:textures/items/breadSlice.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumAxe.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumAxe.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -567,7 +567,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumAxe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteSpade.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteSpade.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteSpade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -587,7 +587,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteSpade.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteHoe.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteHoe.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -607,7 +607,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteHoe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumSword.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumSword.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -627,7 +627,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumSword.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/lollipop.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/lollipop.png
 java.io.FileNotFoundException: mrs:textures/items/lollipop.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -647,7 +647,7 @@ java.io.FileNotFoundException: mrs:textures/items/lollipop.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumHoe.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumHoe.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -667,7 +667,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumHoe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/stoneGear.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/stoneGear.png
 java.io.FileNotFoundException: mrs:textures/items/stoneGear.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -687,7 +687,7 @@ java.io.FileNotFoundException: mrs:textures/items/stoneGear.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/doughnutCutter.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/doughnutCutter.png
 java.io.FileNotFoundException: mrs:textures/items/doughnutCutter.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -707,7 +707,7 @@ java.io.FileNotFoundException: mrs:textures/items/doughnutCutter.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/hotDog.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/hotDog.png
 java.io.FileNotFoundException: mrs:textures/items/hotDog.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -727,7 +727,7 @@ java.io.FileNotFoundException: mrs:textures/items/hotDog.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/metalBoat.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/metalBoat.png
 java.io.FileNotFoundException: mrs:textures/items/metalBoat.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -747,7 +747,7 @@ java.io.FileNotFoundException: mrs:textures/items/metalBoat.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/eyeBall.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/eyeBall.png
 java.io.FileNotFoundException: mrs:textures/items/eyeBall.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -767,7 +767,7 @@ java.io.FileNotFoundException: mrs:textures/items/eyeBall.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumPick.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumPick.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumPick.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -787,7 +787,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumPick.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/cookedMutton.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/cookedMutton.png
 java.io.FileNotFoundException: mrs:textures/items/cookedMutton.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -807,7 +807,7 @@ java.io.FileNotFoundException: mrs:textures/items/cookedMutton.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumSword.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumSword.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -827,7 +827,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumSword.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enderpop.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enderpop.png
 java.io.FileNotFoundException: mrs:textures/items/enderpop.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -847,7 +847,7 @@ java.io.FileNotFoundException: mrs:textures/items/enderpop.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/corn.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/corn.png
 java.io.FileNotFoundException: mrs:textures/items/corn.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -867,7 +867,7 @@ java.io.FileNotFoundException: mrs:textures/items/corn.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/popcorn.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/popcorn.png
 java.io.FileNotFoundException: mrs:textures/items/popcorn.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -887,7 +887,7 @@ java.io.FileNotFoundException: mrs:textures/items/popcorn.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/zayuamiteIngot.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/zayuamiteIngot.png
 java.io.FileNotFoundException: mrs:textures/items/zayuamiteIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -907,7 +907,7 @@ java.io.FileNotFoundException: mrs:textures/items/zayuamiteIngot.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragonitePick.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragonitePick.png
 java.io.FileNotFoundException: mrs:textures/items/dragonitePick.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -927,7 +927,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragonitePick.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/rawMutton.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/rawMutton.png
 java.io.FileNotFoundException: mrs:textures/items/rawMutton.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -947,7 +947,7 @@ java.io.FileNotFoundException: mrs:textures/items/rawMutton.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/butterEyeball.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/butterEyeball.png
 java.io.FileNotFoundException: mrs:textures/items/butterEyeball.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -967,7 +967,7 @@ java.io.FileNotFoundException: mrs:textures/items/butterEyeball.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteHoe.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteHoe.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -987,7 +987,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteHoe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumHoe.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumHoe.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1007,7 +1007,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumHoe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/sausage.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/sausage.png
 java.io.FileNotFoundException: mrs:textures/items/sausage.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1027,7 +1027,7 @@ java.io.FileNotFoundException: mrs:textures/items/sausage.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumPick.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumPick.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumPick.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1047,7 +1047,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumPick.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/ironGear.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/ironGear.png
 java.io.FileNotFoundException: mrs:textures/items/ironGear.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1067,7 +1067,7 @@ java.io.FileNotFoundException: mrs:textures/items/ironGear.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteAxe.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteAxe.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1087,7 +1087,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteAxe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteSword.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteSword.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1107,7 +1107,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteSword.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/ironApple.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/ironApple.png
 java.io.FileNotFoundException: mrs:textures/items/ironApple.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1127,7 +1127,7 @@ java.io.FileNotFoundException: mrs:textures/items/ironApple.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/chocDoughnut.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/chocDoughnut.png
 java.io.FileNotFoundException: mrs:textures/items/chocDoughnut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1147,7 +1147,7 @@ java.io.FileNotFoundException: mrs:textures/items/chocDoughnut.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumSpade.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumSpade.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumSpade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1167,7 +1167,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumSpade.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumitePick.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumitePick.png
 java.io.FileNotFoundException: mrs:textures/items/gonumitePick.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1187,7 +1187,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumitePick.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumAxe.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumAxe.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1207,7 +1207,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumAxe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteIngot.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteIngot.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1227,7 +1227,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteIngot.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/strawberryDoughnut.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/strawberryDoughnut.png
 java.io.FileNotFoundException: mrs:textures/items/strawberryDoughnut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1247,7 +1247,7 @@ java.io.FileNotFoundException: mrs:textures/items/strawberryDoughnut.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteSword.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteSword.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1267,7 +1267,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteSword.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumIngot.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumIngot.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1287,7 +1287,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumIngot.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/sugarDoughnut.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/sugarDoughnut.png
 java.io.FileNotFoundException: mrs:textures/items/sugarDoughnut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1307,7 +1307,7 @@ java.io.FileNotFoundException: mrs:textures/items/sugarDoughnut.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/woodGear.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/woodGear.png
 java.io.FileNotFoundException: mrs:textures/items/woodGear.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1327,10 +1327,10 @@ java.io.FileNotFoundException: mrs:textures/items/woodGear.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:52] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[13:43:52] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[13:43:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:mrs
-[13:43:52] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/gonumiteBlock.png
+[21:30:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:30:08] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[21:30:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:mrs
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/gonumiteBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/gonumiteBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1353,7 +1353,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/gonumiteBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/binoiumOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/binoiumOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/binoiumOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1376,7 +1376,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/binoiumOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/dragoniteBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/dragoniteBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/dragoniteBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1399,7 +1399,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/dragoniteBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/cloudBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/cloudBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/cloudBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1422,7 +1422,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/cloudBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/hive.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/hive.png
 java.io.FileNotFoundException: mrs:textures/blocks/hive.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1445,7 +1445,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/hive.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/zayuamiteBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/zayuamiteBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/zayuamiteBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1468,7 +1468,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/zayuamiteBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/enuriumBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/enuriumBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/enuriumBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1491,7 +1491,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/enuriumBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/dragoniteOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/dragoniteOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/dragoniteOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1514,7 +1514,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/dragoniteOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/slimyBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/slimyBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/slimyBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1537,7 +1537,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/slimyBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/enuriumOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/enuriumOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/enuriumOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1560,7 +1560,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/enuriumOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/beiaRock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/beiaRock.png
 java.io.FileNotFoundException: mrs:textures/blocks/beiaRock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1583,7 +1583,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/beiaRock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/zayuamiteOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/zayuamiteOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/zayuamiteOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1606,7 +1606,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/zayuamiteOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/binoiumBlock.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/binoiumBlock.png
 java.io.FileNotFoundException: mrs:textures/blocks/binoiumBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1629,7 +1629,7 @@ java.io.FileNotFoundException: mrs:textures/blocks/binoiumBlock.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/gonumiteOre.png
+[21:30:08] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/blocks/gonumiteOre.png
 java.io.FileNotFoundException: mrs:textures/blocks/gonumiteOre.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1652,8 +1652,8 @@ java.io.FileNotFoundException: mrs:textures/blocks/gonumiteOre.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/skull.png
+[21:30:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/skull.png
 java.io.FileNotFoundException: mrs:textures/items/skull.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1676,7 +1676,7 @@ java.io.FileNotFoundException: mrs:textures/items/skull.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteSpade.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteSpade.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteSpade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1699,7 +1699,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteSpade.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteAxe.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteAxe.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1722,7 +1722,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteAxe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumSpade.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumSpade.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumSpade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1745,7 +1745,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumSpade.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteIngot.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteIngot.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1768,7 +1768,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteIngot.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/plainDoughnut.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/plainDoughnut.png
 java.io.FileNotFoundException: mrs:textures/items/plainDoughnut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1791,7 +1791,7 @@ java.io.FileNotFoundException: mrs:textures/items/plainDoughnut.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/strawberry.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/strawberry.png
 java.io.FileNotFoundException: mrs:textures/items/strawberry.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1814,7 +1814,7 @@ java.io.FileNotFoundException: mrs:textures/items/strawberry.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/friedEgg.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/friedEgg.png
 java.io.FileNotFoundException: mrs:textures/items/friedEgg.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1837,7 +1837,7 @@ java.io.FileNotFoundException: mrs:textures/items/friedEgg.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/unsetCandy.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/unsetCandy.png
 java.io.FileNotFoundException: mrs:textures/items/unsetCandy.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1860,7 +1860,7 @@ java.io.FileNotFoundException: mrs:textures/items/unsetCandy.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/butter.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/butter.png
 java.io.FileNotFoundException: mrs:textures/items/butter.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1883,7 +1883,7 @@ java.io.FileNotFoundException: mrs:textures/items/butter.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/breadSlice.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/breadSlice.png
 java.io.FileNotFoundException: mrs:textures/items/breadSlice.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1906,7 +1906,7 @@ java.io.FileNotFoundException: mrs:textures/items/breadSlice.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumAxe.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumAxe.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1929,7 +1929,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumAxe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteSpade.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteSpade.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteSpade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1952,7 +1952,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteSpade.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteHoe.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteHoe.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1975,7 +1975,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteHoe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumSword.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumSword.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -1998,7 +1998,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumSword.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/lollipop.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/lollipop.png
 java.io.FileNotFoundException: mrs:textures/items/lollipop.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2021,7 +2021,7 @@ java.io.FileNotFoundException: mrs:textures/items/lollipop.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumHoe.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumHoe.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2044,7 +2044,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumHoe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/stoneGear.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/stoneGear.png
 java.io.FileNotFoundException: mrs:textures/items/stoneGear.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2067,7 +2067,7 @@ java.io.FileNotFoundException: mrs:textures/items/stoneGear.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/doughnutCutter.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/doughnutCutter.png
 java.io.FileNotFoundException: mrs:textures/items/doughnutCutter.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2090,7 +2090,7 @@ java.io.FileNotFoundException: mrs:textures/items/doughnutCutter.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/hotDog.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/hotDog.png
 java.io.FileNotFoundException: mrs:textures/items/hotDog.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2113,7 +2113,7 @@ java.io.FileNotFoundException: mrs:textures/items/hotDog.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/metalBoat.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/metalBoat.png
 java.io.FileNotFoundException: mrs:textures/items/metalBoat.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2136,7 +2136,7 @@ java.io.FileNotFoundException: mrs:textures/items/metalBoat.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/eyeBall.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/eyeBall.png
 java.io.FileNotFoundException: mrs:textures/items/eyeBall.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2159,7 +2159,7 @@ java.io.FileNotFoundException: mrs:textures/items/eyeBall.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumPick.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumPick.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumPick.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2182,7 +2182,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumPick.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/cookedMutton.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/cookedMutton.png
 java.io.FileNotFoundException: mrs:textures/items/cookedMutton.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2205,7 +2205,7 @@ java.io.FileNotFoundException: mrs:textures/items/cookedMutton.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumSword.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumSword.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2228,7 +2228,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumSword.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enderpop.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enderpop.png
 java.io.FileNotFoundException: mrs:textures/items/enderpop.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2251,7 +2251,7 @@ java.io.FileNotFoundException: mrs:textures/items/enderpop.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/corn.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/corn.png
 java.io.FileNotFoundException: mrs:textures/items/corn.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2274,7 +2274,7 @@ java.io.FileNotFoundException: mrs:textures/items/corn.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/popcorn.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/popcorn.png
 java.io.FileNotFoundException: mrs:textures/items/popcorn.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2297,7 +2297,7 @@ java.io.FileNotFoundException: mrs:textures/items/popcorn.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/zayuamiteIngot.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/zayuamiteIngot.png
 java.io.FileNotFoundException: mrs:textures/items/zayuamiteIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2320,7 +2320,7 @@ java.io.FileNotFoundException: mrs:textures/items/zayuamiteIngot.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragonitePick.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragonitePick.png
 java.io.FileNotFoundException: mrs:textures/items/dragonitePick.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2343,7 +2343,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragonitePick.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/rawMutton.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/rawMutton.png
 java.io.FileNotFoundException: mrs:textures/items/rawMutton.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2366,7 +2366,7 @@ java.io.FileNotFoundException: mrs:textures/items/rawMutton.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/butterEyeball.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/butterEyeball.png
 java.io.FileNotFoundException: mrs:textures/items/butterEyeball.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2389,7 +2389,7 @@ java.io.FileNotFoundException: mrs:textures/items/butterEyeball.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteHoe.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteHoe.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2412,7 +2412,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteHoe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumHoe.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/binoiumHoe.png
 java.io.FileNotFoundException: mrs:textures/items/binoiumHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2435,7 +2435,7 @@ java.io.FileNotFoundException: mrs:textures/items/binoiumHoe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/sausage.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/sausage.png
 java.io.FileNotFoundException: mrs:textures/items/sausage.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2458,7 +2458,7 @@ java.io.FileNotFoundException: mrs:textures/items/sausage.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumPick.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumPick.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumPick.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2481,7 +2481,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumPick.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/ironGear.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/ironGear.png
 java.io.FileNotFoundException: mrs:textures/items/ironGear.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2504,7 +2504,7 @@ java.io.FileNotFoundException: mrs:textures/items/ironGear.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteAxe.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteAxe.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2527,7 +2527,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteAxe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteSword.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteSword.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2550,7 +2550,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteSword.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/ironApple.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/ironApple.png
 java.io.FileNotFoundException: mrs:textures/items/ironApple.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2573,7 +2573,7 @@ java.io.FileNotFoundException: mrs:textures/items/ironApple.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/chocDoughnut.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/chocDoughnut.png
 java.io.FileNotFoundException: mrs:textures/items/chocDoughnut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2596,7 +2596,7 @@ java.io.FileNotFoundException: mrs:textures/items/chocDoughnut.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumSpade.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumSpade.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumSpade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2619,7 +2619,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumSpade.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumitePick.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumitePick.png
 java.io.FileNotFoundException: mrs:textures/items/gonumitePick.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2642,7 +2642,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumitePick.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumAxe.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumAxe.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2665,7 +2665,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumAxe.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteIngot.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/dragoniteIngot.png
 java.io.FileNotFoundException: mrs:textures/items/dragoniteIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2688,7 +2688,7 @@ java.io.FileNotFoundException: mrs:textures/items/dragoniteIngot.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/strawberryDoughnut.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/strawberryDoughnut.png
 java.io.FileNotFoundException: mrs:textures/items/strawberryDoughnut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2711,7 +2711,7 @@ java.io.FileNotFoundException: mrs:textures/items/strawberryDoughnut.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteSword.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/gonumiteSword.png
 java.io.FileNotFoundException: mrs:textures/items/gonumiteSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2734,7 +2734,7 @@ java.io.FileNotFoundException: mrs:textures/items/gonumiteSword.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumIngot.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/enuriumIngot.png
 java.io.FileNotFoundException: mrs:textures/items/enuriumIngot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2757,7 +2757,7 @@ java.io.FileNotFoundException: mrs:textures/items/enuriumIngot.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/sugarDoughnut.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/sugarDoughnut.png
 java.io.FileNotFoundException: mrs:textures/items/sugarDoughnut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2780,7 +2780,7 @@ java.io.FileNotFoundException: mrs:textures/items/sugarDoughnut.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/woodGear.png
+[21:30:09] [Client thread/ERROR]: Using missing texture, unable to load mrs:textures/items/woodGear.png
 java.io.FileNotFoundException: mrs:textures/items/woodGear.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
@@ -2803,57 +2803,103 @@ java.io.FileNotFoundException: mrs:textures/items/woodGear.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[13:43:53] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[13:43:53] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:43:53] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[13:43:53] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[13:43:53] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:43:53] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:43:53] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[13:43:53] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[13:43:53] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:43:53] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[13:43:54] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:43:54] [Sound Library Loader/INFO]: Sound engine started
-[13:44:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[13:44:08] [Server thread/INFO]: Generating keypair
-[13:44:08] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[13:44:08] [Server thread/INFO]: Applying holder lookups
-[13:44:08] [Server thread/INFO]: Holder lookups applied
-[13:44:08] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@75b82066)
-[13:44:08] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@75b82066)
-[13:44:08] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@75b82066)
-[13:44:08] [Server thread/INFO]: Preparing start region for level 0
-[13:44:09] [Server thread/INFO]: Changing view distance to 12, from 10
-[13:44:10] [Netty Client IO #0/INFO]: Server protocol version 1
-[13:44:10] [Netty IO #1/INFO]: Client protocol version 1
-[13:44:10] [Netty IO #1/INFO]: Client attempting to join with 4 mods : FML@7.10.85.1230,Forge@10.13.2.1230,mcp@9.05,mrs@0.a
-[13:44:10] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[13:44:10] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[13:44:10] [Server thread/INFO]: [Server thread] Server side modded connection established
-[13:44:10] [Client thread/INFO]: [Client thread] Client side modded connection established
-[13:44:10] [Server thread/INFO]: Player937[local:E:dcfe24f4] logged in with entity id 280 at (-310.9970523033039, 73.0, 146.84128503071642)
-[13:44:10] [Server thread/INFO]: Player937 joined the game
-[13:44:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2530ms behind, skipping 50 tick(s)
-[13:44:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13869ms behind, skipping 277 tick(s)
-[13:44:57] [Client thread/INFO]: Warning: Clientside chunk ticking took 220 ms
-[13:45:04] [Server thread/INFO]: Saving and pausing game...
-[13:45:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:45:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:45:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:45:05] [Server thread/INFO]: Stopping server
-[13:45:05] [Server thread/INFO]: Saving players
-[13:45:05] [Server thread/INFO]: Saving worlds
-[13:45:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:45:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:45:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:45:06] [Server thread/INFO]: Unloading dimension 0
-[13:45:06] [Server thread/INFO]: Unloading dimension -1
-[13:45:06] [Server thread/INFO]: Unloading dimension 1
-[13:45:06] [Server thread/INFO]: Applying holder lookups
-[13:45:06] [Server thread/INFO]: Holder lookups applied
-[13:45:07] [Client thread/INFO]: Stopping!
-[13:45:07] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[13:45:07] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[13:45:07] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[13:45:07] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:30:09] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:30:09] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:30:09] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[21:30:09] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[21:30:09] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:30:09] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:30:09] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:30:09] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:30:09] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:30:09] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:30:10] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:30:10] [Sound Library Loader/INFO]: Sound engine started
+[21:30:15] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:30:15] [Server thread/INFO]: Generating keypair
+[21:30:16] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[21:30:16] [Server thread/INFO]: Applying holder lookups
+[21:30:16] [Server thread/INFO]: Holder lookups applied
+[21:30:16] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@21e8baec)
+[21:30:16] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@21e8baec)
+[21:30:16] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@21e8baec)
+[21:30:16] [Server thread/INFO]: Preparing start region for level 0
+[21:30:17] [Server thread/INFO]: Preparing spawn area: 76%
+[21:30:17] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:30:17] [Netty Client IO #0/INFO]: Server protocol version 1
+[21:30:17] [Netty IO #1/INFO]: Client protocol version 1
+[21:30:17] [Netty IO #1/INFO]: Client attempting to join with 4 mods : FML@7.10.85.1230,Forge@10.13.2.1230,mcp@9.05,mrs@0.a
+[21:30:17] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[21:30:17] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[21:30:17] [Server thread/INFO]: [Server thread] Server side modded connection established
+[21:30:17] [Server thread/INFO]: Player546[local:E:476afe9f] logged in with entity id 207 at (656.108769232109, 72.0, 248.62789067982465)
+[21:30:18] [Server thread/INFO]: Player546 joined the game
+[21:30:18] [Client thread/INFO]: [Client thread] Client side modded connection established
+[21:30:20] [Server thread/INFO]: Player546 has just earned the achievement [Taking Inventory]
+[21:30:20] [Client thread/INFO]: [CHAT] Player546 has just earned the achievement [Taking Inventory]
+[21:30:25] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 1 out of 12
+[21:30:28] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 2 out of 12
+[21:30:28] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 1 out of 12
+[21:30:30] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 3 out of 12
+[21:30:30] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 2 out of 12
+[21:30:33] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 4 out of 12
+[21:30:33] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 3 out of 12
+[21:30:35] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 5 out of 12
+[21:30:35] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 4 out of 12
+[21:30:38] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 6 out of 12
+[21:30:38] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 5 out of 12
+[21:30:40] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 7 out of 12
+[21:30:40] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 6 out of 12
+[21:30:43] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 8 out of 12
+[21:30:45] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 9 out of 12
+[21:30:48] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 10 out of 12
+[21:30:50] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 11 out of 12
+[21:30:53] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 12 out of 12
+[21:30:55] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 1 out of 12
+[21:30:58] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 2 out of 12
+[21:31:00] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 3 out of 12
+[21:31:03] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 4 out of 12
+[21:31:05] [Server thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 1 out of 12
+[21:31:08] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 2 out of 12
+[21:31:11] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 3 out of 12
+[21:31:13] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 4 out of 12
+[21:31:15] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 5 out of 12
+[21:31:18] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 6 out of 12
+[21:31:20] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 7 out of 12
+[21:31:23] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 8 out of 12
+[21:31:25] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 9 out of 12
+[21:31:28] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 10 out of 12
+[21:31:30] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 11 out of 12
+[21:31:33] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 12 out of 12
+[21:31:35] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 1 out of 12
+[21:31:38] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 2 out of 12
+[21:31:40] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 3 out of 12
+[21:31:43] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 4 out of 12
+[21:31:46] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 5 out of 12
+[21:31:48] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 6 out of 12
+[21:31:50] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 7 out of 12
+[21:31:53] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 8 out of 12
+[21:31:55] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 9 out of 12
+[21:31:58] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 10 out of 12
+[21:32:00] [Client thread/INFO]: [me.hii488.moRandomStuff.ice.items.IceItems:meltInventoryFromTick:53]: Damage will be 11 out of 12
+[21:32:06] [Client thread/INFO]: Warning: Clientside chunk ticking took 207 ms
+[21:33:16] [Server thread/INFO]: Saving and pausing game...
+[21:33:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:33:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:33:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:33:17] [Server thread/INFO]: Stopping server
+[21:33:17] [Server thread/INFO]: Saving players
+[21:33:17] [Server thread/INFO]: Saving worlds
+[21:33:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:33:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:33:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:33:17] [Server thread/INFO]: Unloading dimension 0
+[21:33:17] [Server thread/INFO]: Unloading dimension -1
+[21:33:17] [Server thread/INFO]: Unloading dimension 1
+[21:33:17] [Server thread/INFO]: Applying holder lookups
+[21:33:17] [Server thread/INFO]: Holder lookups applied
+[21:33:18] [Client thread/INFO]: Stopping!
+[21:33:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:33:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[21:33:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[21:33:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 

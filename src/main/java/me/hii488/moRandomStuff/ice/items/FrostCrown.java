@@ -3,8 +3,6 @@ package me.hii488.moRandomStuff.ice.items;
 import me.hii488.moRandomStuff.Registries.TabRegistry;
 import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.item.ItemArmor;
-import net.minecraftforge.oredict.OreDictionary;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 public class FrostCrown extends ItemArmor {
 
