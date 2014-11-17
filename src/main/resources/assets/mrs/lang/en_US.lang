@@ -69,11 +69,18 @@ item.stoneGear.name=Stone Gear
 item.ironGear.name=Iron Gear
 
 item.bootySlapper.name=Booty Slapper
-item..name=
-item..name=
-item..name=
-item..name=
-item..name=
+item.kitchenKnife.name=Kitchen Knife
+
+item.squidMeat.name=Squid Meat
+item.cookedSquidMeat.name=Cooked Squid Meat
+item.rawMutton.name=Raw Mutton
+item.cookedMutton.name=Cooked Mutton
+item.cookedFlesh.name=Cooked Flesh
+item.sausage.name=Sausage
+item.breadSlice.name=Bread Slice
+item.hotDog.name=Hot Dog
+item.friedEgg.name=Fried Egg
+item.chips.name=Chips
 
 item.rodFrost.name=Frost Rod
 item.crownFrost.name=Crown of the Frost
