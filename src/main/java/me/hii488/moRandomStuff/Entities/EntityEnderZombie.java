@@ -1,6 +1,6 @@
 package me.hii488.moRandomStuff.Entities;
 
-import me.hii488.moRandomStuff.Registries.MRSItemRegistry;
+import me.hii488.moRandomStuff.Registries.MRSFoodRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -54,7 +54,7 @@ public class EntityEnderZombie extends EntityMob{
 
 		for(int k = 0; k<random-1; k++){
 			if(k==4){
-				this.dropItem(MRSItemRegistry.enderFlesh, 1);
+				this.dropItem(MRSFoodRegistry.enderFlesh, 1);
 			}else if(k==1){
 				this.dropItem(Items.rotten_flesh, 1);
 			}else if(k==14){

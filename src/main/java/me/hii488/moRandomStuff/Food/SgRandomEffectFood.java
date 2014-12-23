@@ -14,9 +14,9 @@ import net.minecraft.world.World;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class EnderFlesh extends ItemFood{
+public class SgRandomEffectFood extends ItemFood{
 
-	public EnderFlesh(int p_i45339_1_, float p_i45339_2_, boolean p_i45339_3_) {
+	public SgRandomEffectFood(int p_i45339_1_, float p_i45339_2_, boolean p_i45339_3_) {
 		super(p_i45339_1_, p_i45339_2_, p_i45339_3_);
 		this.setCreativeTab(TabRegistry.MRFtab);
 	}

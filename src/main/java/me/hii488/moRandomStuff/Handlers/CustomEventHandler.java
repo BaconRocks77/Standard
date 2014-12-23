@@ -4,6 +4,7 @@ import java.util.Random;
 
 import me.hii488.moRandomStuff.Entities.EntityNetherZombie;
 import me.hii488.moRandomStuff.Entities.EntityTntZombie;
+import me.hii488.moRandomStuff.Registries.MRSFoodRegistry;
 import me.hii488.moRandomStuff.Registries.MRSItemRegistry;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.passive.EntitySheep;
@@ -24,20 +25,20 @@ public class CustomEventHandler {
 	    if (event.entity instanceof EntitySquid){
 	        double d = rand.nextDouble();
 	    	if(d < 0.5){
-	        	ItemStack itemStackToDrop = new ItemStack(MRSItemRegistry.squidMeat, 2);
+	        	ItemStack itemStackToDrop = new ItemStack(MRSFoodRegistry.squidMeat, 2);
 	        	event.drops.add(new EntityItem(event.entity.worldObj, event.entity.posX, event.entity.posY, event.entity.posZ, itemStackToDrop));
 	        }
 	    }
 	    if (event.entity instanceof EntitySheep){
 	        double d = rand.nextDouble();
 	    	if(d < 0.4){
-	        	ItemStack itemStackToDrop = new ItemStack(MRSItemRegistry.rawMutton, 2);
+	        	ItemStack itemStackToDrop = new ItemStack(MRSFoodRegistry.rawMutton, 2);
 	        	event.drops.add(new EntityItem(event.entity.worldObj, event.entity.posX, event.entity.posY, event.entity.posZ, itemStackToDrop));
 	        }
 	    }
 	    double d3 = rand.nextDouble();
 	    if(d3 <0.3){
-	    	ItemStack itemstack = new ItemStack(MRSItemRegistry.skull, 1);
+	    	ItemStack itemstack = new ItemStack(MRSFoodRegistry.skull, 1);
 	    	event.drops.add(new EntityItem(event.entity.worldObj, event.entity.posX, event.entity.posY, event.entity.posZ, itemstack));
 	    }
 	}

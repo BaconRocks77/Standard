@@ -2,6 +2,8 @@ package me.hii488.moRandomStuff.Registries;
 
 import me.hii488.moRandomStuff.Blocks.SimpleOre;
 import me.hii488.moRandomStuff.Blocks.SolidBlock;
+import me.hii488.moRandomStuff.Food.Crops.BlazingChilliCrop;
+import me.hii488.moRandomStuff.Food.Crops.RiceCrop;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -24,11 +26,15 @@ public class BlockRegistry {
 	    public static Block hive;
 	    public static Block slimyBlock;
 	    public static Block cloudBlock;
+	    
+	  //Crops
+		 public static Block riceCrop;
+		 public static Block blazingChilliCrop;
 
 
 	    public static void BlockReg(){
 	    	//silver Blocks
-	    	silverOre = new SimpleOre(Material.rock, 2).setBlockName("silverOre");
+	    	silverOre = new SimpleOre(Material.rock, 1).setBlockName("silverOre");
 	    	silverBlock = new SolidBlock(Material.rock).setBlockName("silverBlock");
 
 	    	//gonumite Blocks
@@ -57,6 +63,11 @@ public class BlockRegistry {
 	    	slimyBlock = new SimpleOre(Material.ground,1).setBlockName("slimyBlock");
 	    	cloudBlock = new SolidBlock(Material.web).setBlockName("cloudBlock");
 
+	    	//Crops
+	    	riceCrop = new RiceCrop().setBlockName("riceCrop");
+	    	blazingChilliCrop = new BlazingChilliCrop().setBlockName("blazingChilliCrop");
+	    	
+	    	
 	    	//Registration
 	    	GameRegistry.registerBlock(silverOre, "silverOre");
 	    	GameRegistry.registerBlock(silverBlock, "silverBlock");
@@ -80,5 +91,9 @@ public class BlockRegistry {
 	    	GameRegistry.registerBlock(beiaRock, "beiaRock");
 	    	GameRegistry.registerBlock(slimyBlock, "slimyBlock");
 	    	GameRegistry.registerBlock(cloudBlock, "cloudBlock");
+	    	
+	    	//Crops
+	    	GameRegistry.registerBlock(riceCrop, "riceCrop");
+	    	GameRegistry.registerBlock(blazingChilliCrop, "blazingChilliCrop");
 	    }
 }

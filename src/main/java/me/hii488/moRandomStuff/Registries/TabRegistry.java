@@ -44,7 +44,15 @@ public class TabRegistry {
         @Override
         @SideOnly(Side.CLIENT)
         public Item getTabIconItem() {
-            return MRSItemRegistry.chips;
+            return MRSFoodRegistry.chips;
+        }
+    };
+    
+    public static CreativeTabs MRPFtab = new CreativeTabs("MoRandomPoisonedFoodTab") {
+        @Override
+        @SideOnly(Side.CLIENT)
+        public Item getTabIconItem() {
+            return MRSFoodRegistry.pchips;
         }
     };
 

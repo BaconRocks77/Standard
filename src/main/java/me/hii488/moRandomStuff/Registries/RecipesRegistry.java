@@ -25,35 +25,35 @@ public class RecipesRegistry {
     	GameRegistry.addShapedRecipe(new ItemStack(MRSItemRegistry.gonumiteHoe), "XX "," Y "," Y " ,'X', MRSItemRegistry.gonumiteIngot, 'Y', Items.stick);
     	GameRegistry.addShapedRecipe(new ItemStack(MRSItemRegistry.gonumiteSpade), " X "," Y "," Y " ,'X', MRSItemRegistry.gonumiteIngot, 'Y', Items.stick);
 
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.uncookedChips, 4), Items.potato, MRSItemRegistry.kitchenKnife);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.sausage, 3), MRSItemRegistry.kitchenKnife, Items.cooked_porkchop);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.breadSlice, 4), Items.bread, MRSItemRegistry.kitchenKnife);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.hotDog, 1), MRSItemRegistry.breadSlice, MRSItemRegistry.breadSlice, MRSItemRegistry.sausage);
-//    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.plainDoughnut,1), MRSItemRegistry.doughnutCutter, MRSItemRegistry.dough, MRSItemRegistry.dough, MRSItemRegistry.dough, MRSItemRegistry.dough);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.butterEyeball,1), MRSItemRegistry.butter, MRSItemRegistry.eyeBall);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.butterEyeball,1), MRSItemRegistry.butter, Items.spider_eye);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.chewyBones, 1), MRSItemRegistry.boringCandy, Items.bone);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.gummySkull, 1), MRSItemRegistry.boringCandy, MRSItemRegistry.skull);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.lollipop, 1), MRSItemRegistry.boringCandy, Items.stick);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.enderpop, 1), MRSItemRegistry.lollipop, Items.ender_pearl);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.uncookedChips, 4), Items.potato, MRSItemRegistry.kitchenKnife);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.sausage, 3), MRSItemRegistry.kitchenKnife, Items.cooked_porkchop);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.breadSlice, 4), Items.bread, MRSItemRegistry.kitchenKnife);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.hotDog, 1), MRSFoodRegistry.breadSlice, MRSFoodRegistry.breadSlice, MRSFoodRegistry.sausage);
+//    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.plainDoughnut,1), MRSFoodRegistry.doughnutCutter, MRSFoodRegistry.dough, MRSFoodRegistry.dough, MRSFoodRegistry.dough, MRSFoodRegistry.dough);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.butterEyeball,1), MRSFoodRegistry.butter, MRSFoodRegistry.eyeBall);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.butterEyeball,1), MRSFoodRegistry.butter, Items.spider_eye);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.chewyBones, 1), MRSFoodRegistry.boringCandy, Items.bone);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.gummySkull, 1), MRSFoodRegistry.boringCandy, MRSFoodRegistry.skull);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.lollipop, 1), MRSFoodRegistry.boringCandy, Items.stick);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.enderpop, 1), MRSFoodRegistry.lollipop, Items.ender_pearl);
 
     	GameRegistry.addShapedRecipe(new ItemStack(MRSItemRegistry.woodGear, 2), " X ", "X X", " X ", 'X', Items.stick);
     	GameRegistry.addShapedRecipe(new ItemStack(MRSItemRegistry.stoneGear, 1), " X ", "XYX", " X ", 'X', Blocks.cobblestone, 'Y', MRSItemRegistry.woodGear);
     	GameRegistry.addShapedRecipe(new ItemStack(MRSItemRegistry.ironGear, 1), " X ", "XYX", " X ", 'X', Items.iron_ingot, 'Y', MRSItemRegistry.stoneGear);
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.WitheredBoneMeal,1),MRSItemRegistry.WitheredBones);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.dough, 4), Items.water_bucket, Items.wheat);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.butter, 2), Items.milk_bucket);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.honey, 5), BlockRegistry.hive);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.boringCandy,1), MRSItemRegistry.honey, Items.sugar);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.corn, 2), Items.wheat, MRSItemRegistry.kitchenKnife);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.dough, 4), Items.water_bucket, Items.wheat);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.butter, 2), Items.milk_bucket);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.honey, 5), BlockRegistry.hive);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.boringCandy,1), MRSFoodRegistry.honey, Items.sugar);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.corn, 2), Items.wheat, MRSItemRegistry.kitchenKnife);
 
     	// Smelting
     	GameRegistry.addSmelting(BlockRegistry.silverOre, new ItemStack(MRSItemRegistry.silverIngot), 10f);
 
-    	GameRegistry.addSmelting(MRSItemRegistry.squidMeat, new ItemStack(MRSItemRegistry.cookedSquidMeat), 3f);
-    	GameRegistry.addSmelting(MRSItemRegistry.rawMutton, new ItemStack(MRSItemRegistry.cookedMutton), 3f);
-    	GameRegistry.addSmelting(MRSItemRegistry.uncookedChips, new ItemStack(MRSItemRegistry.chips), 3f);
-    	GameRegistry.addSmelting(Items.egg, new ItemStack(MRSItemRegistry.friedEgg), 3f);
-    	GameRegistry.addSmelting(MRSItemRegistry.corn, new ItemStack(MRSItemRegistry.popcorn, 2), 3);
+    	GameRegistry.addSmelting(MRSFoodRegistry.squidMeat, new ItemStack(MRSFoodRegistry.cookedSquidMeat), 3f);
+    	GameRegistry.addSmelting(MRSFoodRegistry.rawMutton, new ItemStack(MRSFoodRegistry.cookedMutton), 3f);
+    	GameRegistry.addSmelting(MRSFoodRegistry.uncookedChips, new ItemStack(MRSFoodRegistry.chips), 3f);
+    	GameRegistry.addSmelting(Items.egg, new ItemStack(MRSFoodRegistry.friedEgg), 3f);
+    	GameRegistry.addSmelting(MRSFoodRegistry.corn, new ItemStack(MRSFoodRegistry.popcorn, 2), 3);
 	}
 }
