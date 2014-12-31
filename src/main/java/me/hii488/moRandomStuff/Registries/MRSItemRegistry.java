@@ -121,7 +121,7 @@ public class MRSItemRegistry{
     	enuriumAxe = (ItemAxe) new Axe(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumAxe");
     	enuriumHoe = (ItemHoe) new Hoe(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumHoe");
     	enuriumPick = (ItemPickaxe) new PickAxe(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumPick");
-    	enuriumSpade = (ItemSpade) new Spade(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumSpade");
+    	enuriumSpade = (ItemSpade) new Spade(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumShovel");
 
     	//binoium Items
     	binoiumSword = (ItemSword) new Sword(TaAMaterialRegistry.binoium).setUnlocalizedName("binoiumSword");

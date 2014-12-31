@@ -214,8 +214,8 @@ public class MRSFoodRegistry {
     	rawMutton = (ItemFood) new JustFood(1,0.5f,false).setUnlocalizedName("rawMutton");
     	cookedMutton = (ItemFood) new JustFood(3,1.5f,false).setUnlocalizedName("cookedMutton");
     	chips = (ItemFood) new JustFood(2,1.0f,false).setUnlocalizedName("chips");
-    	enderFlesh = (ItemFood) new SgRandomEffectFood(2,1.0f,false).setUnlocalizedName("EnderFlesh");
-    	cookedFlesh = (ItemFood) new JustFood(3,1.0f,false).setUnlocalizedName("CookedFlesh");
+    	enderFlesh = (ItemFood) new SgRandomEffectFood(2,1.0f,false).setUnlocalizedName("enderFlesh");
+    	cookedFlesh = (ItemFood) new JustFood(3,1.0f,false).setUnlocalizedName("cookedFlesh");
     	sausage = (ItemFood) new JustFood(1,1.0f,true).setUnlocalizedName("sausage");
     	breadSlice = (ItemFood) new JustFood(1,0.2f,false).setUnlocalizedName("breadSlice");
     	hotDog = (ItemFood) new JustFood(4,3.5f,false).setUnlocalizedName("hotDog");
@@ -373,9 +373,9 @@ public class MRSFoodRegistry {
     	GameRegistry.registerItem(cookedSquidMeat, "cookedSquidMeat");
     	GameRegistry.registerItem(rawMutton, "rawMutton");
     	GameRegistry.registerItem(cookedMutton, "cookedMutton");
-    	GameRegistry.registerItem(chips, "Chips");
-    	GameRegistry.registerItem(enderFlesh, "EnderFlesh");
-    	GameRegistry.registerItem(cookedFlesh, "CookedFlesh");
+    	GameRegistry.registerItem(chips, "chips");
+    	GameRegistry.registerItem(enderFlesh, "enderFlesh");
+    	GameRegistry.registerItem(cookedFlesh, "cookedFlesh");
     	GameRegistry.registerItem(sausage, "sausage");
     	GameRegistry.registerItem(breadSlice, "breadSlice");
     	GameRegistry.registerItem(hotDog, "hotDog");
