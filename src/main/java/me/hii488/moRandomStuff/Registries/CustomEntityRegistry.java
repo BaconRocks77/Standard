@@ -3,6 +3,7 @@ package me.hii488.moRandomStuff.Registries;
 import me.hii488.moRandomStuff.Entities.EntityEnderZombie;
 import me.hii488.moRandomStuff.Entities.EntityMetalBoat;
 import me.hii488.moRandomStuff.Entities.EntityNetherZombie;
+import me.hii488.moRandomStuff.Entities.EntitySkeletalGuard;
 import me.hii488.moRandomStuff.Entities.EntityTntZombie;
 import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.entity.EntityList;
@@ -19,17 +20,21 @@ public class CustomEntityRegistry {
 		createEntity(EntityNetherZombie.class, "EntityNetherZombie", 0xEC4545, 0x001EFF);
 		createEntity(EntityTntZombie.class, "EntityTntZombie", 0xEE4445, 0xEE1EFF);
 		createEntity(EntityEnderZombie.class, "EntityEnderZombie", 0xEE4455, 0xEE1EFF);
+		createEntity(EntitySkeletalGuard.class, "EntitySkeletalGuard",  0xEE4455, 0xEE1EFF);
 
 		createEntityNoEgg(EntityMetalBoat.class, "EntityMetalBoat");
 
 		EntityRegistry.addSpawn(EntityNetherZombie.class, 10, 2, 5, EnumCreatureType.monster, BiomeGenBase.hell);
 
 		for(int i = 0; i < BiomeGenBase.getBiomeGenArray().length; i++){
+			//Anywhere except Nether, End and Mooshroom Islands 
 			if(BiomeGenBase.getBiome(i)!=null && BiomeGenBase.getBiome(i)!= BiomeGenBase.hell && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIsland
 					&& BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIslandShore && BiomeGenBase.getBiome(i)!= BiomeGenBase.sky){
 				EntityRegistry.addSpawn(EntityTntZombie.class, 10, 1, 5, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
+				EntityRegistry.addSpawn(EntitySkeletalGuard.class, 5, 1, 3, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
 			}
-			if(BiomeGenBase.getBiome(i)!=null && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIsland && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIslandShore){
+			//Anywhere but Nether + Mooshroom Islands
+			if(BiomeGenBase.getBiome(i)!=null && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIsland && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIslandShore && BiomeGenBase.getBiome(i)!= BiomeGenBase.hell){
 				EntityRegistry.addSpawn(EntityEnderZombie.class, 10, 1, 5, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
 			}
 		}

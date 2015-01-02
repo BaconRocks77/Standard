@@ -1,7 +1,8 @@
-package me.hii488.moRandomStuff.Entities;
+package me.hii488.moRandomStuff.RenderEntities;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import me.hii488.moRandomStuff.Entities.EntityMetalBoat;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelBoat;
 import net.minecraft.client.renderer.entity.Render;
