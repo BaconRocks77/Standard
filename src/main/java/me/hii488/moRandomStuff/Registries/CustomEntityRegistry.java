@@ -1,6 +1,7 @@
 package me.hii488.moRandomStuff.Registries;
 
 import me.hii488.moRandomStuff.Entities.EntityEnderZombie;
+import me.hii488.moRandomStuff.Entities.EntityIronGolbie;
 import me.hii488.moRandomStuff.Entities.EntityMetalBoat;
 import me.hii488.moRandomStuff.Entities.EntityNetherZombie;
 import me.hii488.moRandomStuff.Entities.EntitySkeletalGuard;
@@ -21,6 +22,7 @@ public class CustomEntityRegistry {
 		createEntity(EntityTntZombie.class, "EntityTntZombie", 0xEE4445, 0xEE1EFF);
 		createEntity(EntityEnderZombie.class, "EntityEnderZombie", 0xEE4455, 0xEE1EFF);
 		createEntity(EntitySkeletalGuard.class, "EntitySkeletalGuard",  0xEE4455, 0xEE1EFF);
+		createEntity(EntityIronGolbie.class, "EntityIronGolbie", 0xEC7545, 0x004EFF);
 
 		createEntityNoEgg(EntityMetalBoat.class, "EntityMetalBoat");
 
