@@ -1,5 +1,7 @@
 package me.hii488.moRandomStuff.Registries;
 
+import me.hii488.moRandomStuff.Entities.EntityArmouredCreeper;
+import me.hii488.moRandomStuff.Entities.EntityDayZombie;
 import me.hii488.moRandomStuff.Entities.EntityEnderZombie;
 import me.hii488.moRandomStuff.Entities.EntityIronGolbie;
 import me.hii488.moRandomStuff.Entities.EntityMetalBoat;
@@ -25,21 +27,39 @@ public class CustomEntityRegistry {
 		createEntity(EntitySkeletalGuard.class, "EntitySkeletalGuard",  0xEE4455, 0xEE1EFF);
 		createEntity(EntityIronGolbie.class, "EntityIronGolbie", 0xEC7545, 0x004EFF);
 		createEntity(EntityZombifiedBlaze.class, "EntityZombifiedBlaze", 0xEC7545, 0x004EFF);
+		createEntity(EntityArmouredCreeper.class, "EntityArmouredCreeper", 0xEC7545, 0x004EFF);
+		createEntity(EntityDayZombie.class, "EntityDayZombie", 0xEC7545, 0x004EFF);
 
+		
 		createEntityNoEgg(EntityMetalBoat.class, "EntityMetalBoat");
 
 		EntityRegistry.addSpawn(EntityNetherZombie.class, 10, 2, 5, EnumCreatureType.monster, BiomeGenBase.hell);
 
 		for(int i = 0; i < BiomeGenBase.getBiomeGenArray().length; i++){
 			//Anywhere except Nether, End and Mooshroom Islands 
-			if(BiomeGenBase.getBiome(i)!=null && BiomeGenBase.getBiome(i)!= BiomeGenBase.hell && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIsland
-					&& BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIslandShore && BiomeGenBase.getBiome(i)!= BiomeGenBase.sky){
+			if(BiomeGenBase.getBiome(i)!=null && BiomeGenBase.getBiome(i)!= BiomeGenBase.hell && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIsland	&& BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIslandShore && BiomeGenBase.getBiome(i)!= BiomeGenBase.sky){
+				
 				EntityRegistry.addSpawn(EntityTntZombie.class, 10, 1, 5, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
 				EntityRegistry.addSpawn(EntitySkeletalGuard.class, 5, 1, 3, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
+				EntityRegistry.addSpawn(EntityIronGolbie.class, 1, 1, 1, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
+				EntityRegistry.addSpawn(EntityArmouredCreeper.class, 5, 1, 3, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
+				EntityRegistry.addSpawn(EntityDayZombie.class, 5, 0, 4, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
+				
+				
 			}
 			//Anywhere but Nether + Mooshroom Islands
 			if(BiomeGenBase.getBiome(i)!=null && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIsland && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIslandShore && BiomeGenBase.getBiome(i)!= BiomeGenBase.hell){
-				EntityRegistry.addSpawn(EntityEnderZombie.class, 10, 1, 5, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
+				
+				EntityRegistry.addSpawn(EntityZombifiedBlaze.class, 3, 1, 3, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
+				
+			}
+			
+			//Anywhere but Mooshroom Islands Or End
+			if(BiomeGenBase.getBiome(i)!=null && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIsland && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIslandShore && BiomeGenBase.getBiome(i)!= BiomeGenBase.sky){
+				
+				EntityRegistry.addSpawn(EntitySkeletalGuard.class, 5, 1, 3, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
+
+				
 			}
 		}
 	}
