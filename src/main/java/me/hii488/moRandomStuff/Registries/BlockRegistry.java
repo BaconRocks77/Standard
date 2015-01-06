@@ -1,5 +1,6 @@
 package me.hii488.moRandomStuff.Registries;
 
+import me.hii488.moRandomStuff.Blocks.CloudBlock;
 import me.hii488.moRandomStuff.Blocks.SimpleOre;
 import me.hii488.moRandomStuff.Blocks.SolidBlock;
 import me.hii488.moRandomStuff.Food.Crops.BlazingChilliCrop;
@@ -61,7 +62,7 @@ public class BlockRegistry {
 	    	beiaRock = new SimpleOre(Material.rock, 3).setBlockName("beiaRock").setHardness(500f).setResistance(1000f);
 	    	hive = new SolidBlock(Material.ground).setBlockName("hive");
 	    	slimyBlock = new SimpleOre(Material.ground,1).setBlockName("slimyBlock");
-	    	cloudBlock = new SolidBlock(Material.web).setBlockName("cloudBlock");
+	    	cloudBlock = new CloudBlock(Material.web).setBlockName("cloudBlock");
 
 	    	//Crops
 	    	riceCrop = new RiceCrop().setBlockName("riceCrop");

@@ -3,6 +3,7 @@ itemGroup.MoRandomBlocksTab=MR Blocks
 itemGroup.MoRandomToolsTab=MR Tools
 itemGroup.MoRandomWeaponsTab=MR Weapons
 itemGroup.MoRandomFoodTab=MR Food
+itemGroup.MoRandomPoisonedFoodTab=MR Poisoned Food
 itemGroup.MoRandomItemsTab=MR Items
 itemGroup.MoRandomIceTab=MR: Ice
 
@@ -24,6 +25,7 @@ tile.binoiumBlock.name=Binoium Block
 tile.beiaRock.name=Beia Rock
 tile.slimyBlock.name=Slimy Block
 tile.cloudBlock.name=Cloud Block
+tile.hive.name=Hive
 
 
 
@@ -33,6 +35,8 @@ item.dragoniteIngot.name=Dragonite Ingot
 item.enuriumIngot.name=Enurium Ingot
 item.zayuamiteIngot.name=Zayuamite Ingot
 item.binoiumIngot.name=Binoium Ingot
+
+
 
 item.silverSword.name=Silver Sword
 item.silverAxe.name=Silver Axe
@@ -64,12 +68,28 @@ item.binoiumPick.name=Binoium Pick
 item.binoiumHoe.name=Binoium Hoe
 item.binoiumSpade.name=Binoium Spade
 
+
+
 item.woodGear.name=Wooden Gear
 item.stoneGear.name=Stone Gear
 item.ironGear.name=Iron Gear
 
-item.bootySlapper.name=Booty Slapper
-item.kitchenKnife.name=Kitchen Knife
+item.BootySlapper.name=Booty Slapper
+item.KitchenKnife.name=Kitchen Knife
+
+item.witheredBones.name=Withered Bones
+item.witheredBoneMeal.name=Withered Bone Meal
+item.metalBoat.name=Metal Boat
+item.doughnutCutter.name=Doughnut Cutter
+item.eyeall.name=Eye Ball
+item.butter.name=Butter
+item.skull.name=Skull
+item.unsetCandy.name=Unset Candy
+item.corn.name=Corn
+item.bloodBottle.name=Blood Bottle
+item.unicornHorn.name=Unicorn Horn
+
+
 
 item.squidMeat.name=Squid Meat
 item.cookedSquidMeat.name=Cooked Squid Meat
@@ -81,6 +101,27 @@ item.breadSlice.name=Bread Slice
 item.hotDog.name=Hot Dog
 item.friedEgg.name=Fried Egg
 item.chips.name=Chips
+item.strawbberry.name=Strawberry
+item.plainDoughnut.name=Plain Doughnut
+item.chocDoughnut.name=Chocolate Doughnut
+item.strawberryDoughnut.name=Strawberry Doughnut
+item.sugarDoughnut.name=Sugar Doughnut
+item.butterEyeball.name=Butter Eyeball
+item.popcorn.name=Popcorn
+item.lollipop.name=Lollipop
+item.enderpop.name=Enderpop
+item.uncookedChips=Uncooked Chips
+item.cookedMurkcrawlerMeat.name=Cooked Murkcrawler Meat
+item.blazingChilli.name=Blazing Chilli
+item.friedOnionRings.name=Fried Onion Rings
+item.butteredFriedFish.name=Buttered Fried Fish
+item.uncookedMurkcrawlerMeat.name=Uncooked Murkcrawler Meat
+item.honeyedBark.name=Honeyed Bark
+item.rawEnderDragonMeat.name=Raw Enderdragon Meat
+item.enderDragonMeat.name=Enderdragon Meat
+item.rawCreepdraChops.name=Raw Creepdra Chops
+
+
 
 item.rodFrost.name=Frost Rod
 item.crownFrost.name=Crown of the Frost

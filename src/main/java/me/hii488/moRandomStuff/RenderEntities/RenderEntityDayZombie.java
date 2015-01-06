@@ -1,7 +1,6 @@
 package me.hii488.moRandomStuff.RenderEntities;
 
 import me.hii488.moRandomStuff.Entities.EntityDayZombie;
-import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.entity.Entity;
@@ -11,7 +10,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class RenderEntityDayZombie extends RenderLiving {
-	private static final ResourceLocation mobTextures = new ResourceLocation(Main.MODID + ":textures/entity/EnderZombie.png");
+	private static final ResourceLocation mobTextures = new ResourceLocation("textures/entity/zombie/zombie.png");
     private static final String __OBFID = "CL_00000983";
 
     public RenderEntityDayZombie(ModelBase par1ModelBase, float par2)

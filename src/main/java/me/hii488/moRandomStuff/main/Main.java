@@ -20,7 +20,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class Main {
 
 	public static final String MODID = "mrs";
-    public static final String VERSION = "WIP b";
+    public static final String VERSION = "WIP 0.C";
 
     @Instance(Main.MODID)
     public static Main modinstance;

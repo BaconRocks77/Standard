@@ -21,7 +21,7 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 
 public class EntityDayZombie extends EntityMob{
-
+	
 	public EntityDayZombie(World p_i1738_1_) {
 		super(p_i1738_1_);
 		this.setSize(0.9f, 1.9f);
@@ -32,13 +32,13 @@ public class EntityDayZombie extends EntityMob{
 		this.tasks.addTask(5, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
 		this.targetTasks.addTask(0, new EntityAINearestAttackableTarget(this, EntityPlayer.class, 0, true));
 		this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityVillager.class, 0, false));
-
+		
 	}
 	
 	public boolean isAIEnabled(){
 		return true;
 	}
-
+	
 	
 	protected void dropFewItems(boolean par1, int par2){
 		int random = this.rand.nextInt(15) + this.rand.nextInt(1 + par2);
@@ -77,7 +77,7 @@ public class EntityDayZombie extends EntityMob{
     public void updateRidden()
     {
         super.updateRidden();
-
+        
         if (this.ridingEntity instanceof EntityCreature)
         {
             EntityCreature entitycreature = (EntityCreature)this.ridingEntity;
@@ -86,5 +86,5 @@ public class EntityDayZombie extends EntityMob{
     }
     
     
-
+    
 }

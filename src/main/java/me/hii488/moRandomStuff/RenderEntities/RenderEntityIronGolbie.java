@@ -11,8 +11,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class RenderEntityIronGolbie extends RenderLiving {
-	//private static final ResourceLocation mobTextures = new ResourceLocation(Main.MODID + ":textures/entity/IronGolbie.png");
-	private static final ResourceLocation mobTextures = new ResourceLocation("textures/entity/iron_golem");
+	private static final ResourceLocation mobTextures = new ResourceLocation(Main.MODID + ":textures/entity/IronGolbie.png");
 
 	private static final String __OBFID = "CL_00000983";
 
