@@ -32,6 +32,10 @@ public class WitheredBoneMeal extends Item{
 			if (!world.isRemote){
 				world.playAuxSFX(2005, x, y, z, 0);
 			}
+			applyBonemeal(itemstack, world, x+2, y, z, player);
+			applyBonemeal(itemstack, world, x-2, y, z, player);
+			applyBonemeal(itemstack, world, x, y, z+2, player);
+			applyBonemeal(itemstack, world, x, y, z-2, player);
 			return true;
 		}
         return false;
