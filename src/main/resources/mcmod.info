@@ -1,7 +1,7 @@
 [
 {
   "modid": "MoThings",
-  "name": "Mo Things and Randomness",
+  "name": "Mo Random Things",
   "description": "Tons of random items, mobs and more...",
   "version": "${version}",
   "mcversion": "${mcversion}",

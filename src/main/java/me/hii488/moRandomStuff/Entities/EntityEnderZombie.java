@@ -25,9 +25,9 @@ import net.minecraftforge.event.entity.living.EnderTeleportEvent;
 
 public class EntityEnderZombie extends EntityMob{
 
-	/** Counter to delay the teleportation of an enderman towards the currently attacked target */
+	/** Counter to delay the teleportation of an enderzombie towards the currently attacked target */
     private int teleportDelay;
-    /** A player must stare at an enderman for 5 ticks before it becomes aggressive. This field counts those ticks. */
+    /** A player must stare at an enderzombie for 5 ticks before it becomes aggressive. This field counts those ticks. */
     private int stareTimer;
     private Entity lastEntityToAttack;
     private boolean isAggressive;

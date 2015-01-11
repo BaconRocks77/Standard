@@ -27,10 +27,10 @@ public class WitheredBoneMeal extends Item{
 		this.itemIcon = iconRegister.registerIcon(Main.MODID + ":" + this.getUnlocalizedName().substring(5));
 	}
 	
-	public boolean onItemUse(ItemStack itemstack, EntityPlayer player, World world, int int1, int int2, int int3, int int4, float float1, float float2, float float3){
-		if (applyBonemeal(itemstack, world, int1, int2, int3, player)){
+	public boolean onItemUse(ItemStack itemstack, EntityPlayer player, World world, int x, int y, int z, int int4, float float1, float float2, float float3){
+		if (applyBonemeal(itemstack, world, x, y, z, player)){
 			if (!world.isRemote){
-				world.playAuxSFX(2005, int1, int2, int3, 0);
+				world.playAuxSFX(2005, x, y, z, 0);
 			}
 			return true;
 		}
@@ -38,11 +38,11 @@ public class WitheredBoneMeal extends Item{
 	}
     
 	
-	public static boolean applyBonemeal(ItemStack p_150919_0_, World p_150919_1_, int p_150919_2_, int p_150919_3_, int p_150919_4_, EntityPlayer player)
+	public static boolean applyBonemeal(ItemStack itemStack, World world, int x, int y, int z, EntityPlayer player)
     {
-        Block block = p_150919_1_.getBlock(p_150919_2_, p_150919_3_, p_150919_4_);
+        Block block = world.getBlock(x, y, z);
 
-        BonemealEvent event = new BonemealEvent(player, p_150919_1_, block, p_150919_2_, p_150919_3_, p_150919_4_);
+        BonemealEvent event = new BonemealEvent(player, world, block, x, y, z);
         if (MinecraftForge.EVENT_BUS.post(event))
         {
             return false;
@@ -50,9 +50,9 @@ public class WitheredBoneMeal extends Item{
 
         if (event.getResult() == Result.ALLOW)
         {
-            if (!p_150919_1_.isRemote)
+            if (!world.isRemote)
             {
-                p_150919_0_.stackSize--;
+                itemStack.stackSize--;
             }
             return true;
         }
@@ -61,16 +61,16 @@ public class WitheredBoneMeal extends Item{
         {
             IGrowable igrowable = (IGrowable)block;
 
-            if (igrowable.func_149851_a(p_150919_1_, p_150919_2_, p_150919_3_, p_150919_4_, p_150919_1_.isRemote))
+            if (igrowable.func_149851_a(world, x, y, z, world.isRemote))
             {
-                if (!p_150919_1_.isRemote)
+                if (!world.isRemote)
                 {
-                    if (igrowable.func_149852_a(p_150919_1_, p_150919_1_.rand, p_150919_2_, p_150919_3_, p_150919_4_))
+                    if (igrowable.func_149852_a(world, world.rand, x, y, z))
                     {
-                        igrowable.func_149853_b(p_150919_1_, p_150919_1_.rand, p_150919_2_, p_150919_3_, p_150919_4_);
+                        igrowable.func_149853_b(world, world.rand, x, y, z);
                     }
 
-                    --p_150919_0_.stackSize;
+                    --itemStack.stackSize;
                 }
 
                 return true;
