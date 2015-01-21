@@ -9,7 +9,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class BlockRegistry {
+public class MRSBlockRegistry {
 	    public static Block silverOre;
 	    public static Block silverBlock;
 	    public static Block gonumiteOre;
@@ -63,10 +63,11 @@ public class BlockRegistry {
 	    	hive = new SolidBlock(Material.ground).setBlockName("hive");
 	    	slimyBlock = new SimpleOre(Material.ground,1).setBlockName("slimyBlock");
 	    	cloudBlock = new CloudBlock(Material.web).setBlockName("cloudBlock");
-
+	    	
 	    	//Crops
 	    	riceCrop = new RiceCrop().setBlockName("riceCrop");
 	    	blazingChilliCrop = new BlazingChilliCrop().setBlockName("blazingChilliCrop");
+	    	
 	    	
 	    	
 	    	//Registration

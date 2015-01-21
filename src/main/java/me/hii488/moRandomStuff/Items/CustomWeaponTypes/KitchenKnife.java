@@ -1,6 +1,6 @@
 package me.hii488.moRandomStuff.Items.CustomWeaponTypes;
 
-import me.hii488.moRandomStuff.Registries.TabRegistry;
+import me.hii488.moRandomStuff.Registries.MRSTabRegistry;
 import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.ItemStack;
@@ -12,7 +12,7 @@ public class KitchenKnife extends ItemSword{
 
 	public KitchenKnife(ToolMaterial p_i45356_1_) {
 		super(p_i45356_1_);
-		this.setCreativeTab(TabRegistry.MRTtab);
+		this.setCreativeTab(MRSTabRegistry.MRTtab);
 		this.maxStackSize = 1;
 	}
 

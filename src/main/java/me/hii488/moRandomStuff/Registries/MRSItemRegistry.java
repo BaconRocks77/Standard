@@ -42,28 +42,28 @@ public class MRSItemRegistry{
     public static ItemHoe gonumiteHoe;
     public static ItemSpade gonumiteSpade;
 
-      //dragonite items
+    //dragonite items
     public static ItemSword dragoniteSword;
     public static ItemAxe dragoniteAxe;
     public static ItemPickaxe dragonitePick;
     public static ItemHoe dragoniteHoe;
     public static ItemSpade dragoniteSpade;
 
-  //enurium items
+    //enurium items
     public static ItemSword enuriumSword;
     public static ItemAxe enuriumAxe;
     public static ItemPickaxe enuriumPick;
     public static ItemHoe enuriumHoe;
     public static ItemSpade enuriumSpade;
 
-  //binoium items
+    //binoium items
     public static ItemSword binoiumSword;
     public static ItemAxe binoiumAxe;
     public static ItemPickaxe binoiumPick;
     public static ItemHoe binoiumHoe;
     public static ItemSpade binoiumSpade;
 
-  //Gears
+    //Gears
     public static Item woodGear;
     public static Item stoneGear;
     public static Item ironGear;
@@ -96,39 +96,39 @@ public class MRSItemRegistry{
     	stoneGear = new SimpleItem().setUnlocalizedName("stoneGear");
 
     	//SilverItems
-    	silverSword = (ItemSword) new Sword(TaAMaterialRegistry.silver).setUnlocalizedName("silverSword");
-    	silverAxe = (ItemAxe) new Axe(TaAMaterialRegistry.silver).setUnlocalizedName("silverAxe");
-    	silverHoe = (ItemHoe) new Hoe(TaAMaterialRegistry.silver).setUnlocalizedName("silverHoe");
-    	silverPick = (ItemPickaxe) new PickAxe(TaAMaterialRegistry.silver).setUnlocalizedName("silverPick");
-    	silverSpade = (ItemSpade) new Spade(TaAMaterialRegistry.silver).setUnlocalizedName("silverSpade");
+    	silverSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverSword");
+    	silverAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverAxe");
+    	silverHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverHoe");
+    	silverPick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverPick");
+    	silverSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverSpade");
 
     	//gonumite Items
-    	gonumiteSword = (ItemSword) new Sword(TaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteSword");
-    	gonumiteAxe = (ItemAxe) new Axe(TaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteAxe");
-    	gonumiteHoe = (ItemHoe) new Hoe(TaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteHoe");
-    	gonumitePick = (ItemPickaxe) new PickAxe(TaAMaterialRegistry.gonumite).setUnlocalizedName("gonumitePick");
-    	gonumiteSpade = (ItemSpade) new Spade(TaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteSpade");
+    	gonumiteSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteSword");
+    	gonumiteAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteAxe");
+    	gonumiteHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteHoe");
+    	gonumitePick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumitePick");
+    	gonumiteSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteSpade");
 
     	//dragonite Items
-    	dragoniteSword = (ItemSword) new Sword(TaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteSword");
-    	dragoniteAxe = (ItemAxe) new Axe(TaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteAxe");
-    	dragoniteHoe = (ItemHoe) new Hoe(TaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteHoe");
-    	dragonitePick = (ItemPickaxe) new PickAxe(TaAMaterialRegistry.dragonite).setUnlocalizedName("dragonitePick");
-    	dragoniteSpade = (ItemSpade) new Spade(TaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteSpade");
+    	dragoniteSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteSword");
+    	dragoniteAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteAxe");
+    	dragoniteHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteHoe");
+    	dragonitePick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragonitePick");
+    	dragoniteSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteSpade");
 
     	//enurium Items
-    	enuriumSword = (ItemSword) new Sword(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumSword");
-    	enuriumAxe = (ItemAxe) new Axe(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumAxe");
-    	enuriumHoe = (ItemHoe) new Hoe(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumHoe");
-    	enuriumPick = (ItemPickaxe) new PickAxe(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumPick");
-    	enuriumSpade = (ItemSpade) new Spade(TaAMaterialRegistry.enurium).setUnlocalizedName("enuriumShovel");
+    	enuriumSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumSword");
+    	enuriumAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumAxe");
+    	enuriumHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumHoe");
+    	enuriumPick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumPick");
+    	enuriumSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumShovel");
 
     	//binoium Items
-    	binoiumSword = (ItemSword) new Sword(TaAMaterialRegistry.binoium).setUnlocalizedName("binoiumSword");
-    	binoiumAxe = (ItemAxe) new Axe(TaAMaterialRegistry.binoium).setUnlocalizedName("binoiumAxe");
-    	binoiumHoe = (ItemHoe) new Hoe(TaAMaterialRegistry.binoium).setUnlocalizedName("binoiumHoe");
-    	binoiumPick = (ItemPickaxe) new PickAxe(TaAMaterialRegistry.binoium).setUnlocalizedName("binoiumPick");
-    	binoiumSpade = (ItemSpade) new Spade(TaAMaterialRegistry.binoium).setUnlocalizedName("binoiumSpade");
+    	binoiumSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumSword");
+    	binoiumAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumAxe");
+    	binoiumHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumHoe");
+    	binoiumPick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumPick");
+    	binoiumSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumSpade");
 
     	//Misc
     	WitheredBones = new SimpleItem().setUnlocalizedName("WitheredBones");
@@ -138,10 +138,10 @@ public class MRSItemRegistry{
     	bloodBottle = new SimpleItem().setUnlocalizedName("bloodBottle");
     	
     	//Misc Weapons
-    	bootySlapper = (ItemSword) new BootySlapper(TaAMaterialRegistry.bootySlapper).setUnlocalizedName("BootySlapper");
+    	bootySlapper = (ItemSword) new BootySlapper(MRSTaAMaterialRegistry.bootySlapper).setUnlocalizedName("BootySlapper");
 
     	//Just Weird Things
-    	kitchenKnife = (ItemSword) new KitchenKnife(TaAMaterialRegistry.KitchenKnife).setUnlocalizedName("KitchenKnife");
+    	kitchenKnife = (ItemSword) new KitchenKnife(MRSTaAMaterialRegistry.KitchenKnife).setUnlocalizedName("KitchenKnife");
 
     	GameRegistry.registerItem(silverIngot, "silverIngot");
     	GameRegistry.registerItem(gonumiteIngot, "gonumiteIngot");

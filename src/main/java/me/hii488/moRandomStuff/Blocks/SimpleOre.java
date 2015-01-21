@@ -1,6 +1,6 @@
 package me.hii488.moRandomStuff.Blocks;
 
-import me.hii488.moRandomStuff.Registries.TabRegistry;
+import me.hii488.moRandomStuff.Registries.MRSTabRegistry;
 import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -12,7 +12,7 @@ public class SimpleOre extends Block{
 
 	public SimpleOre(Material mat, int harvestLevel) {
 		super(mat);
-		this.setCreativeTab(TabRegistry.MRBtab);
+		this.setCreativeTab(MRSTabRegistry.MRBtab);
 		this.setHardness(4.5f);
 		this.setResistance(12f);
 		this.setHarvestLevel("pickaxe", harvestLevel);

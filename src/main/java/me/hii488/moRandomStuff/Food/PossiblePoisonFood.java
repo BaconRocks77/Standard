@@ -2,7 +2,7 @@ package me.hii488.moRandomStuff.Food;
 
 import java.util.Random;
 
-import me.hii488.moRandomStuff.Registries.TabRegistry;
+import me.hii488.moRandomStuff.Registries.MRSTabRegistry;
 import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
@@ -18,7 +18,7 @@ public class PossiblePoisonFood extends ItemFood{
 
 	public PossiblePoisonFood(int p_i45339_1_, float p_i45339_2_, boolean p_i45339_3_) {
 		super(p_i45339_1_, p_i45339_2_, p_i45339_3_);
-		this.setCreativeTab(TabRegistry.MRPFtab);
+		this.setCreativeTab(MRSTabRegistry.MRPFtab);
 	}
 	
 	@SideOnly(Side.CLIENT)

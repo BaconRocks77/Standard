@@ -5,6 +5,7 @@ import me.hii488.moRandomStuff.Entities.EntityDayZombie;
 import me.hii488.moRandomStuff.Entities.EntityEnderZombie;
 import me.hii488.moRandomStuff.Entities.EntityIronGolbie;
 import me.hii488.moRandomStuff.Entities.EntityMetalBoat;
+import me.hii488.moRandomStuff.Entities.EntityMonoclePig;
 import me.hii488.moRandomStuff.Entities.EntityNetherZombie;
 import me.hii488.moRandomStuff.Entities.EntitySkeletalGuard;
 import me.hii488.moRandomStuff.Entities.EntityTntZombie;
@@ -15,7 +16,7 @@ import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
 import cpw.mods.fml.common.registry.EntityRegistry;
 
-public class CustomEntityRegistry {
+public class MRSCustomEntityRegistry {
 	public static void mainRegistry(){
 		registerEntity();
 	}
@@ -29,6 +30,7 @@ public class CustomEntityRegistry {
 		createEntity(EntityZombifiedBlaze.class, "EntityZombifiedBlaze", 0xEC7545, 0x004EFF);
 		createEntity(EntityArmouredCreeper.class, "EntityArmouredCreeper", 0xEC7545, 0x004EFF);
 		createEntity(EntityDayZombie.class, "EntityDayZombie", 0xEC7545, 0x004EFF);
+		createEntity(EntityMonoclePig.class, "EntityMonoclePig", 0xEC7545, 0x004EFF);
 
 		
 		createEntityNoEgg(EntityMetalBoat.class, "EntityMetalBoat");
@@ -58,8 +60,11 @@ public class CustomEntityRegistry {
 			if(BiomeGenBase.getBiome(i)!=null && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIsland && BiomeGenBase.getBiome(i)!= BiomeGenBase.mushroomIslandShore && BiomeGenBase.getBiome(i)!= BiomeGenBase.sky){
 				
 				EntityRegistry.addSpawn(EntitySkeletalGuard.class, 5, 1, 3, EnumCreatureType.monster, BiomeGenBase.getBiome(i));
-
-				
+	
+			}
+			//Anywhere but End or Nether
+			if(BiomeGenBase.getBiome(i)!=null && BiomeGenBase.getBiome(i)!=BiomeGenBase.sky && BiomeGenBase.getBiome(i)!=BiomeGenBase.hell){
+				EntityRegistry.addSpawn(EntityMonoclePig.class, 3, 1, 5, EnumCreatureType.creature, BiomeGenBase.getBiome(i));
 			}
 		}
 	}

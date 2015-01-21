@@ -5,13 +5,13 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class RecipesRegistry {
+public class MRSRecipesRegistry {
 	public static void RecipesReg(){
 	// Recipies
-    	GameRegistry.addShapedRecipe(new ItemStack(BlockRegistry.silverBlock), "XXX","XXX","XXX" ,'X', MRSItemRegistry.silverIngot);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.silverIngot, 9),BlockRegistry.silverBlock);
-    	GameRegistry.addShapedRecipe(new ItemStack(BlockRegistry.gonumiteBlock), "XXX","XXX","XXX" ,'X', MRSItemRegistry.gonumiteIngot);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.gonumiteIngot, 9),BlockRegistry.gonumiteBlock);
+    	GameRegistry.addShapedRecipe(new ItemStack(MRSBlockRegistry.silverBlock), "XXX","XXX","XXX" ,'X', MRSItemRegistry.silverIngot);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.silverIngot, 9),MRSBlockRegistry.silverBlock);
+    	GameRegistry.addShapedRecipe(new ItemStack(MRSBlockRegistry.gonumiteBlock), "XXX","XXX","XXX" ,'X', MRSItemRegistry.gonumiteIngot);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.gonumiteIngot, 9),MRSBlockRegistry.gonumiteBlock);
 
     	GameRegistry.addShapedRecipe(new ItemStack(MRSItemRegistry.silverSword), " X "," X "," Y " ,'X', MRSItemRegistry.silverIngot, 'Y', Items.stick);
     	GameRegistry.addShapedRecipe(new ItemStack(MRSItemRegistry.silverAxe), "XX ","XY "," Y " ,'X', MRSItemRegistry.silverIngot, 'Y', Items.stick);
@@ -43,12 +43,12 @@ public class RecipesRegistry {
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.WitheredBoneMeal,1),MRSItemRegistry.WitheredBones);
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.dough, 4), Items.water_bucket, Items.wheat);
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.butter, 2), Items.milk_bucket);
-    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.honey, 5), BlockRegistry.hive);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.honey, 5), MRSBlockRegistry.hive);
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.boringCandy,1), MRSFoodRegistry.honey, Items.sugar);
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.corn, 2), Items.wheat, MRSItemRegistry.kitchenKnife);
 
     	// Smelting
-    	GameRegistry.addSmelting(BlockRegistry.silverOre, new ItemStack(MRSItemRegistry.silverIngot), 10f);
+    	GameRegistry.addSmelting(MRSBlockRegistry.silverOre, new ItemStack(MRSItemRegistry.silverIngot), 10f);
 
     	GameRegistry.addSmelting(MRSFoodRegistry.squidMeat, new ItemStack(MRSFoodRegistry.cookedSquidMeat), 3f);
     	GameRegistry.addSmelting(MRSFoodRegistry.rawMutton, new ItemStack(MRSFoodRegistry.cookedMutton), 3f);

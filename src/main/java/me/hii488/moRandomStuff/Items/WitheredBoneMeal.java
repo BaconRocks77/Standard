@@ -1,6 +1,6 @@
 package me.hii488.moRandomStuff.Items;
 
-import me.hii488.moRandomStuff.Registries.TabRegistry;
+import me.hii488.moRandomStuff.Registries.MRSTabRegistry;
 import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.block.Block;
 import net.minecraft.block.IGrowable;
@@ -17,7 +17,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class WitheredBoneMeal extends Item{
 	public WitheredBoneMeal(){
-		this.setCreativeTab(TabRegistry.MRItab);
+		this.setCreativeTab(MRSTabRegistry.MRItab);
 		
 	}
 	

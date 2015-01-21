@@ -281,15 +281,15 @@ public class MRSFoodRegistry {
     	greenMushroom = (ItemFood) new ResSlowAndFatigueFood(4, 1f,false).setUnlocalizedName("greenMushroom");
 
 
-    	uncookedChips = new SimpleItem().setUnlocalizedName("uncookedChips").setCreativeTab(TabRegistry.MRFtab);
+    	uncookedChips = new SimpleItem().setUnlocalizedName("uncookedChips").setCreativeTab(MRSTabRegistry.MRFtab);
     	doughnutCutter = new SimpleItem().setUnlocalizedName("doughnutCutter");
     	eyeBall = new SimpleItem().setUnlocalizedName("eyeBall");
     	butter = new SimpleItem().setUnlocalizedName("butter");
     	skull = new SimpleItem().setUnlocalizedName("skull");
     	boringCandy = new SimpleItem().setUnlocalizedName("unsetCandy");
     	corn = new SimpleItem().setUnlocalizedName("corn");
-    	rice = new ItemSeeds(BlockRegistry.riceCrop, Blocks.farmland).setCreativeTab(TabRegistry.MRFtab).setUnlocalizedName("rice");
-    	blazingChilliSeeds = new ItemSeeds(BlockRegistry.blazingChilliCrop, Blocks.farmland).setCreativeTab(TabRegistry.MRFtab).setUnlocalizedName("blazingChilliSeeds");
+    	rice = new ItemSeeds(MRSBlockRegistry.riceCrop, Blocks.farmland).setCreativeTab(MRSTabRegistry.MRFtab).setUnlocalizedName("rice");
+    	blazingChilliSeeds = new ItemSeeds(MRSBlockRegistry.blazingChilliCrop, Blocks.farmland).setCreativeTab(MRSTabRegistry.MRFtab).setUnlocalizedName("blazingChilliSeeds");
     	poisonSupplement = new SimpleItem().setUnlocalizedName("poisonSupplement");
 	}
 	

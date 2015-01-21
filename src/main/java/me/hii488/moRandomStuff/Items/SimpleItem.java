@@ -1,6 +1,6 @@
 package me.hii488.moRandomStuff.Items;
 
-import me.hii488.moRandomStuff.Registries.TabRegistry;
+import me.hii488.moRandomStuff.Registries.MRSTabRegistry;
 import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
@@ -10,7 +10,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class SimpleItem extends Item{
 	
 	public SimpleItem(){
-		this.setCreativeTab(TabRegistry.MRItab);
+		this.setCreativeTab(MRSTabRegistry.MRItab);
 	}
 	
 	@SideOnly(Side.CLIENT)

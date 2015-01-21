@@ -1,6 +1,6 @@
 package me.hii488.moRandomStuff.ice.items;
 
-import me.hii488.moRandomStuff.Registries.TabRegistry;
+import me.hii488.moRandomStuff.Registries.MRSTabRegistry;
 import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.item.ItemArmor;
 import net.minecraftforge.oredict.OreDictionary;
@@ -14,7 +14,7 @@ public class FrostCrown extends ItemArmor {
     public FrostCrown() {
         super(ArmorMaterial.IRON, 0, 0);
         super.setTextureName(Main.MODID + ":crownFrost");
-        setCreativeTab(TabRegistry.MRIIceTab);
+        setCreativeTab(MRSTabRegistry.MRIIceTab);
         setUnlocalizedName(DICT);
     }
 

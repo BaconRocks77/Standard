@@ -2,11 +2,11 @@ package me.hii488.moRandomStuff.main;
 
 import me.hii488.moRandomStuff.Handlers.CustomEventHandler;
 import me.hii488.moRandomStuff.Handlers.OreGeneration;
-import me.hii488.moRandomStuff.Registries.BlockRegistry;
-import me.hii488.moRandomStuff.Registries.CustomEntityRegistry;
+import me.hii488.moRandomStuff.Registries.MRSBlockRegistry;
+import me.hii488.moRandomStuff.Registries.MRSCustomEntityRegistry;
 import me.hii488.moRandomStuff.Registries.MRSFoodRegistry;
 import me.hii488.moRandomStuff.Registries.MRSItemRegistry;
-import me.hii488.moRandomStuff.Registries.RecipesRegistry;
+import me.hii488.moRandomStuff.Registries.MRSRecipesRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -32,11 +32,11 @@ public class Main {
     public void preInit(FMLPreInitializationEvent event){
 		proxy.registerRenderThings();
 
-		BlockRegistry.BlockReg();
+		MRSBlockRegistry.BlockReg();
 		MRSItemRegistry.registerItems();
 		MRSFoodRegistry.MainFoodReg();
-		RecipesRegistry.RecipesReg();
-    	CustomEntityRegistry.mainRegistry();
+		MRSRecipesRegistry.RecipesReg();
+    	MRSCustomEntityRegistry.mainRegistry();
 
     	GameRegistry.registerWorldGenerator(new OreGeneration(), 1);
     }

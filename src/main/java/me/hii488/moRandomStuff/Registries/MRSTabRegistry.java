@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class TabRegistry {
+public class MRSTabRegistry {
 
     public static final CreativeTabs MRItab = new CreativeTabs("MoRandomItemsTab") {
         @Override
@@ -20,7 +20,7 @@ public class TabRegistry {
         @Override
         @SideOnly(Side.CLIENT)
         public Item getTabIconItem() {
-            return Item.getItemFromBlock(BlockRegistry.silverBlock);
+            return Item.getItemFromBlock(MRSBlockRegistry.silverBlock);
         }
     };
 

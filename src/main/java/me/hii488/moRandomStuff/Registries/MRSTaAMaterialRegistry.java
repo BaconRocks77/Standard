@@ -3,7 +3,7 @@ package me.hii488.moRandomStuff.Registries;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
-public class TaAMaterialRegistry {
+public class MRSTaAMaterialRegistry {
 	 //Tool Materials
     public static ToolMaterial silver = EnumHelper.addToolMaterial("Silver", 2, 350, 5.5F, 1.5F, 100);
     public static ToolMaterial gonumite = EnumHelper.addToolMaterial("Gonumite", 2, 350, 6.5F, 2.5F, 18);

@@ -3,7 +3,7 @@ package me.hii488.moRandomStuff.Items.transport;
 import java.util.List;
 
 import me.hii488.moRandomStuff.Entities.EntityMetalBoat;
-import me.hii488.moRandomStuff.Registries.TabRegistry;
+import me.hii488.moRandomStuff.Registries.MRSTabRegistry;
 import me.hii488.moRandomStuff.main.Main;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
@@ -23,7 +23,7 @@ public class MetalBoat extends Item{
 	
 	public MetalBoat(){
 		this.maxStackSize = 3;
-		this.setCreativeTab(TabRegistry.MRItab);
+		this.setCreativeTab(MRSTabRegistry.MRItab);
 	}
 	
 	@SideOnly(Side.CLIENT)
