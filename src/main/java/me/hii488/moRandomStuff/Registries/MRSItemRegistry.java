@@ -1,22 +1,14 @@
 package me.hii488.moRandomStuff.Registries;
 
-import me.hii488.moRandomStuff.Items.Axe;
-import me.hii488.moRandomStuff.Items.Hoe;
-import me.hii488.moRandomStuff.Items.PickAxe;
 import me.hii488.moRandomStuff.Items.SimpleItem;
-import me.hii488.moRandomStuff.Items.Spade;
-import me.hii488.moRandomStuff.Items.Sword;
 import me.hii488.moRandomStuff.Items.WitheredBoneMeal;
 import me.hii488.moRandomStuff.Items.CustomWeaponTypes.BootySlapper;
 import me.hii488.moRandomStuff.Items.CustomWeaponTypes.KitchenKnife;
 import me.hii488.moRandomStuff.Items.transport.MetalBoat;
 import me.hii488.moRandomStuff.ice.items.IceItems;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemAxe;
-import net.minecraft.item.ItemHoe;
-import net.minecraft.item.ItemPickaxe;
-import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
+import net.minecraftforge.oredict.OreDictionary;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class MRSItemRegistry{
@@ -27,41 +19,7 @@ public class MRSItemRegistry{
     public static Item enuriumIngot;
     public static Item zayuamiteIngot;
     public static Item binoiumIngot;
-
-    //Silver items
-    public static ItemSword silverSword;
-    public static ItemAxe silverAxe;
-    public static ItemPickaxe silverPick;
-    public static ItemHoe silverHoe;
-    public static ItemSpade silverSpade;
-
-    //Gonumite items
-    public static ItemSword gonumiteSword;
-    public static ItemAxe gonumiteAxe;
-    public static ItemPickaxe gonumitePick;
-    public static ItemHoe gonumiteHoe;
-    public static ItemSpade gonumiteSpade;
-
-    //dragonite items
-    public static ItemSword dragoniteSword;
-    public static ItemAxe dragoniteAxe;
-    public static ItemPickaxe dragonitePick;
-    public static ItemHoe dragoniteHoe;
-    public static ItemSpade dragoniteSpade;
-
-    //enurium items
-    public static ItemSword enuriumSword;
-    public static ItemAxe enuriumAxe;
-    public static ItemPickaxe enuriumPick;
-    public static ItemHoe enuriumHoe;
-    public static ItemSpade enuriumSpade;
-
-    //binoium items
-    public static ItemSword binoiumSword;
-    public static ItemAxe binoiumAxe;
-    public static ItemPickaxe binoiumPick;
-    public static ItemHoe binoiumHoe;
-    public static ItemSpade binoiumSpade;
+    public static Item obsidianIngot;
 
     //Gears
     public static Item woodGear;
@@ -89,46 +47,12 @@ public class MRSItemRegistry{
     	enuriumIngot = new SimpleItem().setUnlocalizedName("enuriumIngot");
     	zayuamiteIngot = new SimpleItem().setUnlocalizedName("zayuamiteIngot");
     	binoiumIngot = new SimpleItem().setUnlocalizedName("binoiumIngot");
+    	obsidianIngot = new SimpleItem().setUnlocalizedName("obsidianIngot");
 
     	//Gears
     	woodGear = new SimpleItem().setUnlocalizedName("woodGear");
     	ironGear = new SimpleItem().setUnlocalizedName("ironGear");
     	stoneGear = new SimpleItem().setUnlocalizedName("stoneGear");
-
-    	//SilverItems
-    	silverSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverSword");
-    	silverAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverAxe");
-    	silverHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverHoe");
-    	silverPick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverPick");
-    	silverSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.silver).setUnlocalizedName("silverSpade");
-
-    	//gonumite Items
-    	gonumiteSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteSword");
-    	gonumiteAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteAxe");
-    	gonumiteHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteHoe");
-    	gonumitePick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumitePick");
-    	gonumiteSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.gonumite).setUnlocalizedName("gonumiteSpade");
-
-    	//dragonite Items
-    	dragoniteSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteSword");
-    	dragoniteAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteAxe");
-    	dragoniteHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteHoe");
-    	dragonitePick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragonitePick");
-    	dragoniteSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.dragonite).setUnlocalizedName("dragoniteSpade");
-
-    	//enurium Items
-    	enuriumSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumSword");
-    	enuriumAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumAxe");
-    	enuriumHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumHoe");
-    	enuriumPick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumPick");
-    	enuriumSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.enurium).setUnlocalizedName("enuriumShovel");
-
-    	//binoium Items
-    	binoiumSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumSword");
-    	binoiumAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumAxe");
-    	binoiumHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumHoe");
-    	binoiumPick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumPick");
-    	binoiumSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.binoium).setUnlocalizedName("binoiumSpade");
 
     	//Misc
     	WitheredBones = new SimpleItem().setUnlocalizedName("WitheredBones");
@@ -149,40 +73,11 @@ public class MRSItemRegistry{
     	GameRegistry.registerItem(enuriumIngot, "enuriumIngot");
     	GameRegistry.registerItem(binoiumIngot, "binoiumIngot");
     	GameRegistry.registerItem(zayuamiteIngot, "zayuamiteIngot");
-
+    	GameRegistry.registerItem(obsidianIngot, "obsidianIngot");
+    	
     	GameRegistry.registerItem(woodGear, "woodGear");
     	GameRegistry.registerItem(ironGear, "ironGear");
     	GameRegistry.registerItem(stoneGear, "stoneGear");
-
-    	GameRegistry.registerItem(silverAxe, "silverAxe");
-    	GameRegistry.registerItem(silverSword, "silverSword");
-    	GameRegistry.registerItem(silverHoe, "silverHoe");
-    	GameRegistry.registerItem(silverPick, "silverPick");
-    	GameRegistry.registerItem(silverSpade, "silverSpade");
-
-    	GameRegistry.registerItem(gonumiteAxe, "gonumiteAxe");
-    	GameRegistry.registerItem(gonumiteSword, "gonumiteSword");
-    	GameRegistry.registerItem(gonumiteHoe, "gonumiteHoe");
-    	GameRegistry.registerItem(gonumitePick, "gonumitePick");
-    	GameRegistry.registerItem(gonumiteSpade, "gonumiteSpade");
-
-    	GameRegistry.registerItem(dragoniteAxe, "dragoniteAxe");
-    	GameRegistry.registerItem(dragoniteSword, "dragoniteSword");
-    	GameRegistry.registerItem(dragoniteHoe, "dragoniteHoe");
-    	GameRegistry.registerItem(dragonitePick, "dragonitePick");
-    	GameRegistry.registerItem(dragoniteSpade, "dragoniteSpade");
-
-    	GameRegistry.registerItem(enuriumAxe, "enuriumAxe");
-    	GameRegistry.registerItem(enuriumSword, "enuriumSword");
-    	GameRegistry.registerItem(enuriumHoe, "enuriumHoe");
-    	GameRegistry.registerItem(enuriumPick, "enuriumPick");
-    	GameRegistry.registerItem(enuriumSpade, "enuriumSpade");
-
-    	GameRegistry.registerItem(binoiumAxe, "binoiumAxe");
-    	GameRegistry.registerItem(binoiumSword, "binoiumSword");
-    	GameRegistry.registerItem(binoiumHoe, "binoiumHoe");
-    	GameRegistry.registerItem(binoiumPick, "binoiumPick");
-    	GameRegistry.registerItem(binoiumSpade, "binoiumSpade");
 
     	GameRegistry.registerItem(WitheredBones, "WitheredBones");
     	GameRegistry.registerItem(WitheredBoneMeal, "WitheredBoneMeal");
@@ -194,6 +89,11 @@ public class MRSItemRegistry{
     	GameRegistry.registerItem(kitchenKnife, "KitchenKnife");
 
     	IceItems.init();
+    	MRSToolRegistry.toolReg();
+    }
+    
+    public static void itemOreDictReg(){
+    	OreDictionary.registerOre("silverIngot", silverIngot);
     }
 
 }
