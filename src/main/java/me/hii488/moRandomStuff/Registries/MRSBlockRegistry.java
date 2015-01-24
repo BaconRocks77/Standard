@@ -5,9 +5,9 @@ import me.hii488.moRandomStuff.Blocks.SimpleOre;
 import me.hii488.moRandomStuff.Blocks.SolidBlock;
 import me.hii488.moRandomStuff.Food.Crops.BlazingChilliCrop;
 import me.hii488.moRandomStuff.Food.Crops.RiceCrop;
+import me.hii488.moRandomStuff.main.HelperMethods;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 public class MRSBlockRegistry {
 	    public static Block silverOre;
@@ -22,6 +22,8 @@ public class MRSBlockRegistry {
 	    public static Block zayuamiteBlock;
 	    public static Block binoiumOre;
    	    public static Block binoiumBlock;
+   	    public static Block adamantineOre;
+   	    public static Block adamantineBlock;
 
 	    public static Block beiaRock;
 	    public static Block hive;
@@ -57,6 +59,10 @@ public class MRSBlockRegistry {
 	    	//binoium Blocks
 	    	binoiumOre = new SimpleOre(Material.rock, 1).setBlockName("binoiumOre");
 	    	binoiumBlock = new SolidBlock(Material.rock).setBlockName("binoiumBlock");
+	    	
+	    	//adamantine Blocks
+	    	adamantineOre = new SimpleOre(Material.rock, 1).setBlockName("adamantineOre");
+	    	adamantineBlock = new SolidBlock(Material.rock).setBlockName("adamantineBlock");
 
 	    	//Other
 	    	beiaRock = new SimpleOre(Material.rock, 3).setBlockName("beiaRock").setHardness(500f).setResistance(1000f);
@@ -71,31 +77,34 @@ public class MRSBlockRegistry {
 	    	
 	    	
 	    	//Registration
-	    	GameRegistry.registerBlock(silverOre, "silverOre");
-	    	GameRegistry.registerBlock(silverBlock, "silverBlock");
+	    	HelperMethods.GameAndOreRegistry(silverOre, "silverOre");
+	    	HelperMethods.GameAndOreRegistry(silverBlock, "silverBlock");
 
-	    	GameRegistry.registerBlock(gonumiteOre, "gonumiteOre");
-	    	GameRegistry.registerBlock(gonumiteBlock, "gonumiteBlock");
+	    	HelperMethods.GameAndOreRegistry(gonumiteOre, "gonumiteOre");
+	    	HelperMethods.GameAndOreRegistry(gonumiteBlock, "gonumiteBlock");
 
-	    	GameRegistry.registerBlock(dragoniteOre, "dragoniteOre");
-	    	GameRegistry.registerBlock(dragoniteBlock, "dragoniteBlock");
+	    	HelperMethods.GameAndOreRegistry(dragoniteOre, "dragoniteOre");
+	    	HelperMethods.GameAndOreRegistry(dragoniteBlock, "dragoniteBlock");
 
-	    	GameRegistry.registerBlock(enuriumOre, "enuriumOre");
-	    	GameRegistry.registerBlock(enuriumBlock, "enuriumBlock");
+	    	HelperMethods.GameAndOreRegistry(enuriumOre, "enuriumOre");
+	    	HelperMethods.GameAndOreRegistry(enuriumBlock, "enuriumBlock");
 
-	    	GameRegistry.registerBlock(zayuamiteOre, "zayuamiteOre");
-	    	GameRegistry.registerBlock(zayuamiteBlock, "zayuamiteBlock");
+	    	HelperMethods.GameAndOreRegistry(zayuamiteOre, "zayuamiteOre");
+	    	HelperMethods.GameAndOreRegistry(zayuamiteBlock, "zayuamiteBlock");
 
-	    	GameRegistry.registerBlock(binoiumOre, "binoiumOre");
-	    	GameRegistry.registerBlock(binoiumBlock, "binoiumBlock");
+	    	HelperMethods.GameAndOreRegistry(binoiumOre, "binoiumOre");
+	    	HelperMethods.GameAndOreRegistry(binoiumBlock, "binoiumBlock");
+	    	
+	    	HelperMethods.GameAndOreRegistry(adamantineOre, "adamantineOre");
+	    	HelperMethods.GameAndOreRegistry(adamantineBlock, "adamantineBlock");
 
-	    	GameRegistry.registerBlock(hive, "hive");
-	    	GameRegistry.registerBlock(beiaRock, "beiaRock");
-	    	GameRegistry.registerBlock(slimyBlock, "slimyBlock");
-	    	GameRegistry.registerBlock(cloudBlock, "cloudBlock");
+	    	HelperMethods.GameAndOreRegistry(hive, "hive");
+	    	HelperMethods.GameAndOreRegistry(beiaRock, "beiaRock");
+	    	HelperMethods.GameAndOreRegistry(slimyBlock, "slimyBlock");
+	    	HelperMethods.GameAndOreRegistry(cloudBlock, "cloudBlock");
 	    	
 	    	//Crops
-	    	GameRegistry.registerBlock(riceCrop, "riceCrop");
-	    	GameRegistry.registerBlock(blazingChilliCrop, "blazingChilliCrop");
+	    	HelperMethods.GameAndOreRegistry(riceCrop, "riceCrop");
+	    	HelperMethods.GameAndOreRegistry(blazingChilliCrop, "blazingChilliCrop");
 	    }
 }

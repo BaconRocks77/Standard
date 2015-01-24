@@ -6,6 +6,7 @@ import me.hii488.moRandomStuff.Items.CustomWeaponTypes.BootySlapper;
 import me.hii488.moRandomStuff.Items.CustomWeaponTypes.KitchenKnife;
 import me.hii488.moRandomStuff.Items.transport.MetalBoat;
 import me.hii488.moRandomStuff.ice.items.IceItems;
+import me.hii488.moRandomStuff.main.HelperMethods;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.oredict.OreDictionary;
@@ -20,6 +21,7 @@ public class MRSItemRegistry{
     public static Item zayuamiteIngot;
     public static Item binoiumIngot;
     public static Item obsidianIngot;
+    public static Item adamantineIngot;
 
     //Gears
     public static Item woodGear;
@@ -48,6 +50,7 @@ public class MRSItemRegistry{
     	zayuamiteIngot = new SimpleItem().setUnlocalizedName("zayuamiteIngot");
     	binoiumIngot = new SimpleItem().setUnlocalizedName("binoiumIngot");
     	obsidianIngot = new SimpleItem().setUnlocalizedName("obsidianIngot");
+    	adamantineIngot = new SimpleItem().setUnlocalizedName("adamantineIngot");
 
     	//Gears
     	woodGear = new SimpleItem().setUnlocalizedName("woodGear");
@@ -62,38 +65,36 @@ public class MRSItemRegistry{
     	bloodBottle = new SimpleItem().setUnlocalizedName("bloodBottle");
     	
     	//Misc Weapons
-    	bootySlapper = (ItemSword) new BootySlapper(MRSTaAMaterialRegistry.bootySlapper).setUnlocalizedName("BootySlapper");
+    	bootySlapper = (ItemSword) new BootySlapper(MRSTaAMaterialRegistry.bootySlapper).setUnlocalizedName("bootySlapper");
 
     	//Just Weird Things
-    	kitchenKnife = (ItemSword) new KitchenKnife(MRSTaAMaterialRegistry.KitchenKnife).setUnlocalizedName("KitchenKnife");
+    	kitchenKnife = (ItemSword) new KitchenKnife(MRSTaAMaterialRegistry.KitchenKnife).setUnlocalizedName("kitchenKnife");
 
-    	GameRegistry.registerItem(silverIngot, "silverIngot");
-    	GameRegistry.registerItem(gonumiteIngot, "gonumiteIngot");
-    	GameRegistry.registerItem(dragoniteIngot, "dragoniteIngot");
-    	GameRegistry.registerItem(enuriumIngot, "enuriumIngot");
-    	GameRegistry.registerItem(binoiumIngot, "binoiumIngot");
-    	GameRegistry.registerItem(zayuamiteIngot, "zayuamiteIngot");
-    	GameRegistry.registerItem(obsidianIngot, "obsidianIngot");
+    	HelperMethods.GameAndOreRegistry(silverIngot, "silverIngot");
+    	HelperMethods.GameAndOreRegistry(gonumiteIngot, "gonumiteIngot");
+    	HelperMethods.GameAndOreRegistry(dragoniteIngot, "dragoniteIngot");
+    	HelperMethods.GameAndOreRegistry(enuriumIngot, "enuriumIngot");
+    	HelperMethods.GameAndOreRegistry(binoiumIngot, "binoiumIngot");
+    	HelperMethods.GameAndOreRegistry(zayuamiteIngot, "zayuamiteIngot");
+    	HelperMethods.GameAndOreRegistry(obsidianIngot, "obsidianIngot");
+    	HelperMethods.GameAndOreRegistry(adamantineIngot, "adamantineIngot");
     	
-    	GameRegistry.registerItem(woodGear, "woodGear");
-    	GameRegistry.registerItem(ironGear, "ironGear");
-    	GameRegistry.registerItem(stoneGear, "stoneGear");
+    	HelperMethods.GameAndOreRegistry(woodGear, "woodGear");
+    	HelperMethods.GameAndOreRegistry(ironGear, "ironGear");
+    	HelperMethods.GameAndOreRegistry(stoneGear, "stoneGear");
 
-    	GameRegistry.registerItem(WitheredBones, "WitheredBones");
-    	GameRegistry.registerItem(WitheredBoneMeal, "WitheredBoneMeal");
-    	GameRegistry.registerItem(metalBoat, "metalBoat");
-    	GameRegistry.registerItem(unicornHorn, "unicornHorn");
-    	GameRegistry.registerItem(bloodBottle, "bloodBottle");
+    	HelperMethods.GameAndOreRegistry(WitheredBones, "WitheredBones");
+    	HelperMethods.GameAndOreRegistry(WitheredBoneMeal, "WitheredBoneMeal");
+    	HelperMethods.GameAndOreRegistry(metalBoat, "metalBoat");
+    	HelperMethods.GameAndOreRegistry(unicornHorn, "unicornHorn");
+    	HelperMethods.GameAndOreRegistry(bloodBottle, "bloodBottle");
     	
-    	GameRegistry.registerItem(bootySlapper, "BootySlapper");
-    	GameRegistry.registerItem(kitchenKnife, "KitchenKnife");
+    	HelperMethods.GameAndOreRegistry(bootySlapper, "bootySlapper");
+    	HelperMethods.GameAndOreRegistry(kitchenKnife, "kitchenKnife");
+
 
     	IceItems.init();
     	MRSToolRegistry.toolReg();
-    }
-    
-    public static void itemOreDictReg(){
-    	OreDictionary.registerOre("silverIngot", silverIngot);
     }
 
 }

@@ -5,12 +5,12 @@ import me.hii488.moRandomStuff.Items.Hoe;
 import me.hii488.moRandomStuff.Items.PickAxe;
 import me.hii488.moRandomStuff.Items.Spade;
 import me.hii488.moRandomStuff.Items.Sword;
+import me.hii488.moRandomStuff.main.HelperMethods;
 import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 public class MRSToolRegistry {
 	
@@ -49,12 +49,19 @@ public class MRSToolRegistry {
     public static ItemHoe binoiumHoe;
     public static ItemSpade binoiumSpade;
     
-  //obsidian items
+    //obsidian items
     public static ItemSword obsidianSword;
     public static ItemAxe obsidianAxe;
     public static ItemPickaxe obsidianPick;
     public static ItemHoe obsidianHoe;
     public static ItemSpade obsidianSpade;
+    
+    //adamantine items
+    public static ItemSword adamantineSword;
+    public static ItemAxe adamantineAxe;
+    public static ItemPickaxe adamantinePick;
+    public static ItemHoe adamantineHoe;
+    public static ItemSpade adamantineSpade;
 	
 	
 	public static void toolReg(){
@@ -100,42 +107,55 @@ public class MRSToolRegistry {
     	obsidianHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.obsidian).setUnlocalizedName("obsidianHoe");
     	obsidianPick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.obsidian).setUnlocalizedName("obsidianPick");
     	obsidianSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.obsidian).setUnlocalizedName("obsidianSpade");
-		
-		GameRegistry.registerItem(silverAxe, "silverAxe");
-    	GameRegistry.registerItem(silverSword, "silverSword");
-    	GameRegistry.registerItem(silverHoe, "silverHoe");
-    	GameRegistry.registerItem(silverPick, "silverPick");
-    	GameRegistry.registerItem(silverSpade, "silverSpade");
-
-    	GameRegistry.registerItem(gonumiteAxe, "gonumiteAxe");
-    	GameRegistry.registerItem(gonumiteSword, "gonumiteSword");
-    	GameRegistry.registerItem(gonumiteHoe, "gonumiteHoe");
-    	GameRegistry.registerItem(gonumitePick, "gonumitePick");
-    	GameRegistry.registerItem(gonumiteSpade, "gonumiteSpade");
-
-    	GameRegistry.registerItem(dragoniteAxe, "dragoniteAxe");
-    	GameRegistry.registerItem(dragoniteSword, "dragoniteSword");
-    	GameRegistry.registerItem(dragoniteHoe, "dragoniteHoe");
-    	GameRegistry.registerItem(dragonitePick, "dragonitePick");
-    	GameRegistry.registerItem(dragoniteSpade, "dragoniteSpade");
-
-    	GameRegistry.registerItem(enuriumAxe, "enuriumAxe");
-    	GameRegistry.registerItem(enuriumSword, "enuriumSword");
-    	GameRegistry.registerItem(enuriumHoe, "enuriumHoe");
-    	GameRegistry.registerItem(enuriumPick, "enuriumPick");
-    	GameRegistry.registerItem(enuriumSpade, "enuriumSpade");
-
-    	GameRegistry.registerItem(binoiumAxe, "binoiumAxe");
-    	GameRegistry.registerItem(binoiumSword, "binoiumSword");
-    	GameRegistry.registerItem(binoiumHoe, "binoiumHoe");
-    	GameRegistry.registerItem(binoiumPick, "binoiumPick");
-    	GameRegistry.registerItem(binoiumSpade, "binoiumSpade");
     	
-    	GameRegistry.registerItem(obsidianAxe, "obsidianAxe");
-    	GameRegistry.registerItem(obsidianSword, "obsidianSword");
-    	GameRegistry.registerItem(obsidianHoe, "obsidianHoe");
-    	GameRegistry.registerItem(obsidianPick, "obsidianPick");
-    	GameRegistry.registerItem(obsidianSpade, "obsidianSpade");
+    	//adamantine Items
+    	adamantineSword = (ItemSword) new Sword(MRSTaAMaterialRegistry.adamantine).setUnlocalizedName("adamantineSword");
+    	adamantineAxe = (ItemAxe) new Axe(MRSTaAMaterialRegistry.adamantine).setUnlocalizedName("adamantineAxe");
+    	adamantineHoe = (ItemHoe) new Hoe(MRSTaAMaterialRegistry.adamantine).setUnlocalizedName("adamantineHoe");
+    	adamantinePick = (ItemPickaxe) new PickAxe(MRSTaAMaterialRegistry.adamantine).setUnlocalizedName("adamantinePick");
+    	adamantineSpade = (ItemSpade) new Spade(MRSTaAMaterialRegistry.adamantine).setUnlocalizedName("adamantineSpade");
+		
+		HelperMethods.GameAndOreRegistry(silverAxe, "silverAxe");
+    	HelperMethods.GameAndOreRegistry(silverSword, "silverSword");
+    	HelperMethods.GameAndOreRegistry(silverHoe, "silverHoe");
+    	HelperMethods.GameAndOreRegistry(silverPick, "silverPick");
+    	HelperMethods.GameAndOreRegistry(silverSpade, "silverSpade");
+
+    	HelperMethods.GameAndOreRegistry(gonumiteAxe, "gonumiteAxe");
+    	HelperMethods.GameAndOreRegistry(gonumiteSword, "gonumiteSword");
+    	HelperMethods.GameAndOreRegistry(gonumiteHoe, "gonumiteHoe");
+    	HelperMethods.GameAndOreRegistry(gonumitePick, "gonumitePick");
+    	HelperMethods.GameAndOreRegistry(gonumiteSpade, "gonumiteSpade");
+
+    	HelperMethods.GameAndOreRegistry(dragoniteAxe, "dragoniteAxe");
+    	HelperMethods.GameAndOreRegistry(dragoniteSword, "dragoniteSword");
+    	HelperMethods.GameAndOreRegistry(dragoniteHoe, "dragoniteHoe");
+    	HelperMethods.GameAndOreRegistry(dragonitePick, "dragonitePick");
+    	HelperMethods.GameAndOreRegistry(dragoniteSpade, "dragoniteSpade");
+
+    	HelperMethods.GameAndOreRegistry(enuriumAxe, "enuriumAxe");
+    	HelperMethods.GameAndOreRegistry(enuriumSword, "enuriumSword");
+    	HelperMethods.GameAndOreRegistry(enuriumHoe, "enuriumHoe");
+    	HelperMethods.GameAndOreRegistry(enuriumPick, "enuriumPick");
+    	HelperMethods.GameAndOreRegistry(enuriumSpade, "enuriumSpade");
+
+    	HelperMethods.GameAndOreRegistry(binoiumAxe, "binoiumAxe");
+    	HelperMethods.GameAndOreRegistry(binoiumSword, "binoiumSword");
+    	HelperMethods.GameAndOreRegistry(binoiumHoe, "binoiumHoe");
+    	HelperMethods.GameAndOreRegistry(binoiumPick, "binoiumPick");
+    	HelperMethods.GameAndOreRegistry(binoiumSpade, "binoiumSpade");
+    	
+    	HelperMethods.GameAndOreRegistry(obsidianAxe, "obsidianAxe");
+    	HelperMethods.GameAndOreRegistry(obsidianSword, "obsidianSword");
+    	HelperMethods.GameAndOreRegistry(obsidianHoe, "obsidianHoe");
+    	HelperMethods.GameAndOreRegistry(obsidianPick, "obsidianPick");
+    	HelperMethods.GameAndOreRegistry(obsidianSpade, "obsidianSpade");
+    	
+    	HelperMethods.GameAndOreRegistry(adamantineAxe, "adamantineAxe");
+    	HelperMethods.GameAndOreRegistry(adamantineSword, "adamantineSword");
+    	HelperMethods.GameAndOreRegistry(adamantineHoe, "adamantineHoe");
+    	HelperMethods.GameAndOreRegistry(adamantinePick, "adamantinePick");
+    	HelperMethods.GameAndOreRegistry(adamantineSpade, "adamantineSpade");
 	}
 	
 }

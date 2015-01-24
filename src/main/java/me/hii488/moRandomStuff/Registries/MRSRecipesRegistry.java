@@ -25,6 +25,9 @@ public class MRSRecipesRegistry {
     	
     	GameRegistry.addShapedRecipe(new ItemStack(MRSBlockRegistry.enuriumBlock), "XXX","XXX","XXX" ,'X', MRSItemRegistry.enuriumIngot);
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.enuriumIngot, 9),MRSBlockRegistry.enuriumBlock);
+    	
+    	GameRegistry.addShapedRecipe(new ItemStack(MRSBlockRegistry.adamantineBlock), "XXX","XXX","XXX" ,'X', MRSItemRegistry.adamantineIngot);
+    	GameRegistry.addShapelessRecipe(new ItemStack(MRSItemRegistry.adamantineIngot, 9),MRSBlockRegistry.adamantineBlock);
 
     	GameRegistry.addShapedRecipe(new ItemStack(MRSItemRegistry.woodGear, 2), " X ", "X X", " X ", 'X', Items.stick);
     	GameRegistry.addShapedRecipe(new ItemStack(MRSItemRegistry.stoneGear, 1), " X ", "XYX", " X ", 'X', Blocks.cobblestone, 'Y', MRSItemRegistry.woodGear);
@@ -81,6 +84,12 @@ public class MRSRecipesRegistry {
     	GameRegistry.addShapedRecipe(new ItemStack(MRSToolRegistry.obsidianPick), "XXX"," Y "," Y " ,'X', MRSItemRegistry.obsidianIngot, 'Y', Items.stick);
     	GameRegistry.addShapedRecipe(new ItemStack(MRSToolRegistry.obsidianHoe), "XX "," Y "," Y " ,'X', MRSItemRegistry.obsidianIngot, 'Y', Items.stick);
     	GameRegistry.addShapedRecipe(new ItemStack(MRSToolRegistry.obsidianSpade), " X "," Y "," Y " ,'X', MRSItemRegistry.obsidianIngot, 'Y', Items.stick);
+    	
+    	GameRegistry.addShapedRecipe(new ItemStack(MRSToolRegistry.adamantineSword), " X "," X "," Y " ,'X', MRSItemRegistry.adamantineIngot, 'Y', Items.stick);
+    	GameRegistry.addShapedRecipe(new ItemStack(MRSToolRegistry.adamantineAxe), "XX ","XY "," Y " ,'X', MRSItemRegistry.adamantineIngot, 'Y', Items.stick);
+    	GameRegistry.addShapedRecipe(new ItemStack(MRSToolRegistry.adamantinePick), "XXX"," Y "," Y " ,'X', MRSItemRegistry.adamantineIngot, 'Y', Items.stick);
+    	GameRegistry.addShapedRecipe(new ItemStack(MRSToolRegistry.adamantineHoe), "XX "," Y "," Y " ,'X', MRSItemRegistry.adamantineIngot, 'Y', Items.stick);
+    	GameRegistry.addShapedRecipe(new ItemStack(MRSToolRegistry.adamantineSpade), " X "," Y "," Y " ,'X', MRSItemRegistry.adamantineIngot, 'Y', Items.stick);
 
 	}
 	
@@ -96,7 +105,6 @@ public class MRSRecipesRegistry {
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.gummySkull, 1), MRSFoodRegistry.boringCandy, MRSFoodRegistry.skull);
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.lollipop, 1), MRSFoodRegistry.boringCandy, Items.stick);
     	GameRegistry.addShapelessRecipe(new ItemStack(MRSFoodRegistry.enderpop, 1), MRSFoodRegistry.lollipop, Items.ender_pearl);
-
     	
     	// Smelting
     	GameRegistry.addSmelting(MRSFoodRegistry.squidMeat, new ItemStack(MRSFoodRegistry.cookedSquidMeat), 3f);

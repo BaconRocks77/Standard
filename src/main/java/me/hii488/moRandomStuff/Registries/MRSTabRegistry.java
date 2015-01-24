@@ -28,7 +28,7 @@ public class MRSTabRegistry {
         @Override
         @SideOnly(Side.CLIENT)
         public Item getTabIconItem() {
-            return MRSItemRegistry.silverPick;
+            return MRSToolRegistry.silverPick;
         }
     };
 
@@ -36,7 +36,7 @@ public class MRSTabRegistry {
         @Override
         @SideOnly(Side.CLIENT)
         public Item getTabIconItem() {
-            return MRSItemRegistry.silverSword;
+            return MRSToolRegistry.silverSword;
         }
     };
 
