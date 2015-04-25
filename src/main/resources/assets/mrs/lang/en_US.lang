@@ -8,7 +8,8 @@ itemGroup.MoRandomItemsTab=MR Items
 itemGroup.MoRandomIceTab=MR: Ice
 
 
-
+tile.adamantineOre.name=Adamantine Ore
+tile.adamantineBlock.name=Adamantine Block
 tile.silverOre.name=Silver Ore
 tile.silverBlock.name=Silver Block
 tile.gonumiteOre.name=Gonumite Ore
@@ -29,12 +30,17 @@ tile.hive.name=Hive
 
 
 
-item.silverIngot.name=Silver Ingot
-item.gonumiteIngot.name=Gonumite Ingot
-item.dragoniteIngot.name=Dragonite Ingot
-item.enuriumIngot.name=Enurium Ingot
-item.zayuamiteIngot.name=Zayuamite Ingot
-item.binoiumIngot.name=Binoium Ingot
+ item.obsidianIngot.name=Obsidian Ingot
+ item.adamantineIngot.name=Adamantine Ingot
+ item.silverIngot.name=Silver Ingot
+ item.gonumiteIngot.name=Gonumite Ingot
+ item.dragoniteIngot.name=Dragonite Ingot
+ item.enuriumIngot.name=Enurium Ingot
+ item.zayuamiteIngot.name=Zayuamite Ingot
+ item.binoiumIngot.name=Binoium Ingot
+ item.eyeBall.name=EyeBall
+ item.WitheredBoneMeal.name=Withered BoneMeal
+ item.WitheredBones.name+Withered Bones
 
 
 
@@ -60,13 +66,25 @@ item.enuriumSword.name=Enurium Sword
 item.enuriumAxe.name=Enurium Axe
 item.enuriumPick.name=Enurium Pick
 item.enuriumHoe.name=Enurium Hoe
-item.enuriumSpade.name=Enurium Spade
+item.enuriumShovel.name=Enurium Spade
 
 item.binoiumSword.name=Binoium Sword
 item.binoiumAxe.name=Binoium Axe
 item.binoiumPick.name=Binoium Pick
 item.binoiumHoe.name=Binoium Hoe
 item.binoiumSpade.name=Binoium Spade
+
+item.obsidianSword.name=Obsidian Sword
+item.obsidianAxe.name=Obsidian Axe
+item.obsidianPick.name=Obsidian Pick
+item.obsidianHoe.name=Obsidian Hoe
+item.obsidianSpade.name=Obsidian Spade
+
+item.adamantineSword.name=Adamantine Sword
+item.adamantineAxe.name=Adamantine Axe
+item.adamantinePick.name=Adamantine Pick
+item.adamantineHoe.name=Adamantine Hoe
+item.adamantineSpade.name=Adamantine Spade
 
 
 
@@ -120,8 +138,20 @@ item.honeyedBark.name=Honeyed Bark
 item.rawEnderDragonMeat.name=Raw Enderdragon Meat
 item.enderDragonMeat.name=Enderdragon Meat
 item.rawCreepdraChops.name=Raw Creepdra Chops
-
-
+item.enderFlesh.name=Ender Flesh
+item.strawberry.name=Strawberry
+item.coockedRice.name=Coocked Rice
+item.krakenMeat.name=Kraken Meat
+item.rawkrakenMeat.name=Raw Kraken Meat
+item.sashimi.name=Sashimi
+item.pancake.name=Pancake
+item.hashBrown.name=Hash Brown
+item.creepdraChops.name=Creepdra Chops
+item..name=
+item..name=
+item..name=
 
 item.rodFrost.name=Frost Rod
 item.crownFrost.name=Crown of the Frost
+item.bootySlaper.name=Booty Slaper
+//why? ^
