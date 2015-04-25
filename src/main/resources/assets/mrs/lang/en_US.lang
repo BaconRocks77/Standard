@@ -21,22 +21,24 @@ tile.zayuamiteOre.name=Zayuamite Ore
 tile.zayuamiteBlock.name=Zayuamite Block
 tile.binoiumOre.name=Binoium Ore
 tile.binoiumBlock.name=Binoium Block
-
+adamantine
 tile.beiaRock.name=Beia Rock
 tile.slimyBlock.name=Slimy Block
 tile.cloudBlock.name=Cloud Block
 tile.hive.name=Hive
 
 
-
+item.obsidianIngot.name=Obsidian Ingot
+item.adamantineIngot.name=Adamantine Ingot
 item.silverIngot.name=Silver Ingot
 item.gonumiteIngot.name=Gonumite Ingot
 item.dragoniteIngot.name=Dragonite Ingot
 item.enuriumIngot.name=Enurium Ingot
 item.zayuamiteIngot.name=Zayuamite Ingot
 item.binoiumIngot.name=Binoium Ingot
-
-
+item.eyeBall.name=EyeBall
+item.WitheredBoneMeal.name=Withered BoneMeal
+item.WitheredBones.name+Withered Bones
 
 item.silverSword.name=Silver Sword
 item.silverAxe.name=Silver Axe
